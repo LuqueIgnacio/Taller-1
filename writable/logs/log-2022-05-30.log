@@ -1,0 +1,258 @@
+CRITICAL - 2022-05-30 22:03:07 --> Undefined array key "Producto_Stock"
+#0 D:\xampp\htdocs\LuqueIgnacio\app\Models\VentasModel.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\xampp\\htdocs...', 47)
+#1 D:\xampp\htdocs\LuqueIgnacio\app\Models\VentasModel.php(28): App\Models\VentasModel->guardarDetallesVenta(17, Array)
+#2 D:\xampp\htdocs\LuqueIgnacio\app\Controllers\Home.php(108): App\Models\VentasModel->guardarVenta(Array)
+#3 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(832): App\Controllers\Home->comprar()
+#4 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\LuqueIgnacio\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-30 22:07:40 --> Cannot use object of type stdClass as array
+#0 D:\xampp\htdocs\LuqueIgnacio\app\Models\VentasModel.php(28): App\Models\VentasModel->guardarDetallesVenta(18, Array)
+#1 D:\xampp\htdocs\LuqueIgnacio\app\Controllers\Home.php(108): App\Models\VentasModel->guardarVenta(Array)
+#2 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(832): App\Controllers\Home->comprar()
+#3 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\LuqueIgnacio\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-30 22:11:20 --> Cannot use object of type stdClass as array
+#0 D:\xampp\htdocs\LuqueIgnacio\app\Models\VentasModel.php(28): App\Models\VentasModel->guardarDetallesVenta(19, Array)
+#1 D:\xampp\htdocs\LuqueIgnacio\app\Controllers\Home.php(108): App\Models\VentasModel->guardarVenta(Array)
+#2 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(832): App\Controllers\Home->comprar()
+#3 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\LuqueIgnacio\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-30 22:13:57 --> Cannot use object of type stdClass as array
+#0 D:\xampp\htdocs\LuqueIgnacio\app\Models\VentasModel.php(28): App\Models\VentasModel->guardarDetallesVenta(20, Array)
+#1 D:\xampp\htdocs\LuqueIgnacio\app\Controllers\Home.php(108): App\Models\VentasModel->guardarVenta(Array)
+#2 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(832): App\Controllers\Home->comprar()
+#3 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\LuqueIgnacio\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-30 22:15:15 --> Cannot use object of type stdClass as array
+#0 D:\xampp\htdocs\LuqueIgnacio\app\Models\VentasModel.php(28): App\Models\VentasModel->guardarDetallesVenta(21, Array)
+#1 D:\xampp\htdocs\LuqueIgnacio\app\Controllers\Home.php(108): App\Models\VentasModel->guardarVenta(Array)
+#2 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(832): App\Controllers\Home->comprar()
+#3 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\LuqueIgnacio\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-30 22:15:38 --> Cannot use object of type stdClass as array
+#0 D:\xampp\htdocs\LuqueIgnacio\app\Models\VentasModel.php(28): App\Models\VentasModel->guardarDetallesVenta(22, Array)
+#1 D:\xampp\htdocs\LuqueIgnacio\app\Controllers\Home.php(108): App\Models\VentasModel->guardarVenta(Array)
+#2 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(832): App\Controllers\Home->comprar()
+#3 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\LuqueIgnacio\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-30 22:17:28 --> Cannot use object of type stdClass as array
+#0 D:\xampp\htdocs\LuqueIgnacio\app\Models\VentasModel.php(28): App\Models\VentasModel->guardarDetallesVenta(23, Array)
+#1 D:\xampp\htdocs\LuqueIgnacio\app\Controllers\Home.php(108): App\Models\VentasModel->guardarVenta(Array)
+#2 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(832): App\Controllers\Home->comprar()
+#3 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\LuqueIgnacio\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-30 22:18:14 --> Cannot use object of type stdClass as array
+#0 D:\xampp\htdocs\LuqueIgnacio\app\Models\VentasModel.php(28): App\Models\VentasModel->guardarDetallesVenta(24, Array)
+#1 D:\xampp\htdocs\LuqueIgnacio\app\Controllers\Home.php(108): App\Models\VentasModel->guardarVenta(Array)
+#2 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(832): App\Controllers\Home->comprar()
+#3 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\LuqueIgnacio\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-30 22:18:55 --> Cannot use object of type stdClass as array
+#0 D:\xampp\htdocs\LuqueIgnacio\app\Models\VentasModel.php(28): App\Models\VentasModel->guardarDetallesVenta(25, Array)
+#1 D:\xampp\htdocs\LuqueIgnacio\app\Controllers\Home.php(108): App\Models\VentasModel->guardarVenta(Array)
+#2 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(832): App\Controllers\Home->comprar()
+#3 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\LuqueIgnacio\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-30 22:19:42 --> Cannot use object of type stdClass as array
+#0 D:\xampp\htdocs\LuqueIgnacio\app\Models\VentasModel.php(28): App\Models\VentasModel->guardarDetallesVenta(26, Array)
+#1 D:\xampp\htdocs\LuqueIgnacio\app\Controllers\Home.php(108): App\Models\VentasModel->guardarVenta(Array)
+#2 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(832): App\Controllers\Home->comprar()
+#3 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\LuqueIgnacio\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-30 22:20:15 --> Cannot use object of type stdClass as array
+#0 D:\xampp\htdocs\LuqueIgnacio\app\Models\VentasModel.php(29): App\Models\VentasModel->guardarDetallesVenta(27, Array)
+#1 D:\xampp\htdocs\LuqueIgnacio\app\Controllers\Home.php(108): App\Models\VentasModel->guardarVenta(Array)
+#2 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(832): App\Controllers\Home->comprar()
+#3 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\LuqueIgnacio\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-30 22:20:58 --> Cannot access offset of type string on string
+#0 D:\xampp\htdocs\LuqueIgnacio\app\Models\VentasModel.php(28): App\Models\VentasModel->guardarDetallesVenta(28, Array)
+#1 D:\xampp\htdocs\LuqueIgnacio\app\Controllers\Home.php(108): App\Models\VentasModel->guardarVenta(Array)
+#2 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(832): App\Controllers\Home->comprar()
+#3 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\LuqueIgnacio\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-30 22:21:21 --> Cannot access offset of type string on string
+#0 D:\xampp\htdocs\LuqueIgnacio\app\Models\VentasModel.php(28): App\Models\VentasModel->guardarDetallesVenta(29, Array)
+#1 D:\xampp\htdocs\LuqueIgnacio\app\Controllers\Home.php(108): App\Models\VentasModel->guardarVenta(Array)
+#2 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(832): App\Controllers\Home->comprar()
+#3 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\LuqueIgnacio\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-30 22:21:45 --> Cannot access offset of type string on string
+#0 D:\xampp\htdocs\LuqueIgnacio\app\Models\VentasModel.php(28): App\Models\VentasModel->guardarDetallesVenta(30, Array)
+#1 D:\xampp\htdocs\LuqueIgnacio\app\Controllers\Home.php(108): App\Models\VentasModel->guardarVenta(Array)
+#2 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(832): App\Controllers\Home->comprar()
+#3 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\LuqueIgnacio\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-30 22:22:35 --> Cannot use object of type stdClass as array
+#0 D:\xampp\htdocs\LuqueIgnacio\app\Models\VentasModel.php(28): App\Models\VentasModel->guardarDetallesVenta(31, Array)
+#1 D:\xampp\htdocs\LuqueIgnacio\app\Controllers\Home.php(108): App\Models\VentasModel->guardarVenta(Array)
+#2 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(832): App\Controllers\Home->comprar()
+#3 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\LuqueIgnacio\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-30 22:22:49 --> Cannot use object of type stdClass as array
+#0 D:\xampp\htdocs\LuqueIgnacio\app\Models\VentasModel.php(28): App\Models\VentasModel->guardarDetallesVenta(32, Array)
+#1 D:\xampp\htdocs\LuqueIgnacio\app\Controllers\Home.php(108): App\Models\VentasModel->guardarVenta(Array)
+#2 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(832): App\Controllers\Home->comprar()
+#3 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\LuqueIgnacio\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-30 22:23:24 --> Undefined array key 0
+#0 D:\xampp\htdocs\LuqueIgnacio\app\Models\VentasModel.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\xampp\\htdocs...', 49)
+#1 D:\xampp\htdocs\LuqueIgnacio\app\Models\VentasModel.php(28): App\Models\VentasModel->guardarDetallesVenta(33, Array)
+#2 D:\xampp\htdocs\LuqueIgnacio\app\Controllers\Home.php(108): App\Models\VentasModel->guardarVenta(Array)
+#3 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(832): App\Controllers\Home->comprar()
+#4 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\LuqueIgnacio\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-30 22:24:29 --> Cannot use object of type stdClass as array
+#0 D:\xampp\htdocs\LuqueIgnacio\app\Models\VentasModel.php(28): App\Models\VentasModel->guardarDetallesVenta(34, Array)
+#1 D:\xampp\htdocs\LuqueIgnacio\app\Controllers\Home.php(108): App\Models\VentasModel->guardarVenta(Array)
+#2 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(832): App\Controllers\Home->comprar()
+#3 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\LuqueIgnacio\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-30 22:24:49 --> Cannot use object of type stdClass as array
+#0 D:\xampp\htdocs\LuqueIgnacio\app\Models\VentasModel.php(28): App\Models\VentasModel->guardarDetallesVenta(35, Array)
+#1 D:\xampp\htdocs\LuqueIgnacio\app\Controllers\Home.php(108): App\Models\VentasModel->guardarVenta(Array)
+#2 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(832): App\Controllers\Home->comprar()
+#3 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\LuqueIgnacio\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-30 22:24:59 --> Cannot use object of type stdClass as array
+#0 D:\xampp\htdocs\LuqueIgnacio\app\Models\VentasModel.php(28): App\Models\VentasModel->guardarDetallesVenta(36, Array)
+#1 D:\xampp\htdocs\LuqueIgnacio\app\Controllers\Home.php(108): App\Models\VentasModel->guardarVenta(Array)
+#2 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(832): App\Controllers\Home->comprar()
+#3 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\LuqueIgnacio\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-30 22:25:27 --> Cannot use object of type stdClass as array
+#0 D:\xampp\htdocs\LuqueIgnacio\app\Models\VentasModel.php(28): App\Models\VentasModel->guardarDetallesVenta(37, Array)
+#1 D:\xampp\htdocs\LuqueIgnacio\app\Controllers\Home.php(108): App\Models\VentasModel->guardarVenta(Array)
+#2 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(832): App\Controllers\Home->comprar()
+#3 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\LuqueIgnacio\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-30 22:27:19 --> Cannot use object of type stdClass as array
+#0 D:\xampp\htdocs\LuqueIgnacio\app\Models\VentasModel.php(28): App\Models\VentasModel->guardarDetallesVenta(38, Array)
+#1 D:\xampp\htdocs\LuqueIgnacio\app\Controllers\Home.php(108): App\Models\VentasModel->guardarVenta(Array)
+#2 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(832): App\Controllers\Home->comprar()
+#3 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\LuqueIgnacio\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-30 22:27:38 --> Cannot use object of type stdClass as array
+#0 D:\xampp\htdocs\LuqueIgnacio\app\Models\VentasModel.php(28): App\Models\VentasModel->guardarDetallesVenta(39, Array)
+#1 D:\xampp\htdocs\LuqueIgnacio\app\Controllers\Home.php(108): App\Models\VentasModel->guardarVenta(Array)
+#2 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(832): App\Controllers\Home->comprar()
+#3 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\LuqueIgnacio\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-30 22:27:51 --> Cannot use object of type stdClass as array
+#0 D:\xampp\htdocs\LuqueIgnacio\app\Models\VentasModel.php(28): App\Models\VentasModel->guardarDetallesVenta(40, Array)
+#1 D:\xampp\htdocs\LuqueIgnacio\app\Controllers\Home.php(108): App\Models\VentasModel->guardarVenta(Array)
+#2 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(832): App\Controllers\Home->comprar()
+#3 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\LuqueIgnacio\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-30 22:28:26 --> Cannot use object of type stdClass as array
+#0 D:\xampp\htdocs\LuqueIgnacio\app\Models\VentasModel.php(28): App\Models\VentasModel->guardarDetallesVenta(41, Array)
+#1 D:\xampp\htdocs\LuqueIgnacio\app\Controllers\Home.php(108): App\Models\VentasModel->guardarVenta(Array)
+#2 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(832): App\Controllers\Home->comprar()
+#3 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\LuqueIgnacio\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-30 22:28:48 --> Cannot use object of type stdClass as array
+#0 D:\xampp\htdocs\LuqueIgnacio\app\Models\VentasModel.php(28): App\Models\VentasModel->guardarDetallesVenta(42, Array)
+#1 D:\xampp\htdocs\LuqueIgnacio\app\Controllers\Home.php(108): App\Models\VentasModel->guardarVenta(Array)
+#2 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(832): App\Controllers\Home->comprar()
+#3 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\LuqueIgnacio\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-30 22:29:04 --> Cannot use object of type stdClass as array
+#0 D:\xampp\htdocs\LuqueIgnacio\app\Models\VentasModel.php(28): App\Models\VentasModel->guardarDetallesVenta(43, Array)
+#1 D:\xampp\htdocs\LuqueIgnacio\app\Controllers\Home.php(108): App\Models\VentasModel->guardarVenta(Array)
+#2 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(832): App\Controllers\Home->comprar()
+#3 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\LuqueIgnacio\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-30 22:30:01 --> Cannot use object of type stdClass as array
+#0 D:\xampp\htdocs\LuqueIgnacio\app\Models\VentasModel.php(28): App\Models\VentasModel->guardarDetallesVenta(44, Array)
+#1 D:\xampp\htdocs\LuqueIgnacio\app\Controllers\Home.php(108): App\Models\VentasModel->guardarVenta(Array)
+#2 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(832): App\Controllers\Home->comprar()
+#3 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\LuqueIgnacio\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-30 22:30:18 --> Cannot use object of type stdClass as array
+#0 D:\xampp\htdocs\LuqueIgnacio\app\Models\VentasModel.php(28): App\Models\VentasModel->guardarDetallesVenta(45, Array)
+#1 D:\xampp\htdocs\LuqueIgnacio\app\Controllers\Home.php(108): App\Models\VentasModel->guardarVenta(Array)
+#2 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(832): App\Controllers\Home->comprar()
+#3 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\LuqueIgnacio\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-30 22:30:36 --> Cannot use object of type stdClass as array
+#0 D:\xampp\htdocs\LuqueIgnacio\app\Models\VentasModel.php(28): App\Models\VentasModel->guardarDetallesVenta(46, Array)
+#1 D:\xampp\htdocs\LuqueIgnacio\app\Controllers\Home.php(108): App\Models\VentasModel->guardarVenta(Array)
+#2 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(832): App\Controllers\Home->comprar()
+#3 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\LuqueIgnacio\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-30 22:30:42 --> Cannot use object of type stdClass as array
+#0 D:\xampp\htdocs\LuqueIgnacio\app\Models\VentasModel.php(28): App\Models\VentasModel->guardarDetallesVenta(47, Array)
+#1 D:\xampp\htdocs\LuqueIgnacio\app\Controllers\Home.php(108): App\Models\VentasModel->guardarVenta(Array)
+#2 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(832): App\Controllers\Home->comprar()
+#3 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\LuqueIgnacio\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-30 22:30:55 --> Cannot use object of type stdClass as array
+#0 D:\xampp\htdocs\LuqueIgnacio\app\Models\VentasModel.php(28): App\Models\VentasModel->guardarDetallesVenta(48, Array)
+#1 D:\xampp\htdocs\LuqueIgnacio\app\Controllers\Home.php(108): App\Models\VentasModel->guardarVenta(Array)
+#2 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(832): App\Controllers\Home->comprar()
+#3 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\LuqueIgnacio\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}

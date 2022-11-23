@@ -1,0 +1,262 @@
+CRITICAL - 2022-04-13 18:37:03 --> Undefined variable $marcas
+#0 D:\xampp\htdocs\LuqueIgnacio\app\Views\admin\usuarios\usuarios.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\xampp\\htdocs...', 39)
+#1 D:\xampp\htdocs\LuqueIgnacio\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\LuqueIgnacio\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\LuqueIgnacio\system\Common.php(1089): CodeIgniter\View\View->render('admin/usuarios/...', Array, true)
+#4 D:\xampp\htdocs\LuqueIgnacio\app\Controllers\AdminController.php(202): view('admin/usuarios/...', Array)
+#5 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(832): App\Controllers\AdminController->usuarios()
+#6 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#7 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\LuqueIgnacio\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-13 18:37:35 --> Undefined property: stdClass::$Usuario_Id
+#0 D:\xampp\htdocs\LuqueIgnacio\app\Views\admin\usuarios\usuarios.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\xampp\\htdocs...', 42)
+#1 D:\xampp\htdocs\LuqueIgnacio\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\LuqueIgnacio\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\LuqueIgnacio\system\Common.php(1089): CodeIgniter\View\View->render('admin/usuarios/...', Array, true)
+#4 D:\xampp\htdocs\LuqueIgnacio\app\Controllers\AdminController.php(202): view('admin/usuarios/...', Array)
+#5 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(832): App\Controllers\AdminController->usuarios()
+#6 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#7 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\LuqueIgnacio\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-13 18:38:14 --> Undefined property: stdClass::$Usuario_Id
+#0 D:\xampp\htdocs\LuqueIgnacio\app\Views\admin\usuarios\usuarios.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\xampp\\htdocs...', 67)
+#1 D:\xampp\htdocs\LuqueIgnacio\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\LuqueIgnacio\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\LuqueIgnacio\system\Common.php(1089): CodeIgniter\View\View->render('admin/usuarios/...', Array, true)
+#4 D:\xampp\htdocs\LuqueIgnacio\app\Controllers\AdminController.php(202): view('admin/usuarios/...', Array)
+#5 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(832): App\Controllers\AdminController->usuarios()
+#6 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#7 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\LuqueIgnacio\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-13 18:38:16 --> Undefined property: stdClass::$Usuario_Id
+#0 D:\xampp\htdocs\LuqueIgnacio\app\Views\admin\usuarios\usuarios.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\xampp\\htdocs...', 67)
+#1 D:\xampp\htdocs\LuqueIgnacio\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\LuqueIgnacio\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\LuqueIgnacio\system\Common.php(1089): CodeIgniter\View\View->render('admin/usuarios/...', Array, true)
+#4 D:\xampp\htdocs\LuqueIgnacio\app\Controllers\AdminController.php(202): view('admin/usuarios/...', Array)
+#5 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(832): App\Controllers\AdminController->usuarios()
+#6 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#7 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\LuqueIgnacio\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-13 19:05:37 --> Undefined array key "Producto_Nombre"
+#0 D:\xampp\htdocs\LuqueIgnacio\app\Views\admin\usuarios\actualizar.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\xampp\\htdocs...', 12)
+#1 D:\xampp\htdocs\LuqueIgnacio\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\LuqueIgnacio\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\LuqueIgnacio\system\Common.php(1089): CodeIgniter\View\View->render('admin/usuarios/...', Array, true)
+#4 D:\xampp\htdocs\LuqueIgnacio\app\Controllers\AdminController.php(224): view('admin/usuarios/...', Array)
+#5 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(832): App\Controllers\AdminController->usuariosActualizar()
+#6 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#7 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\LuqueIgnacio\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-04-13 19:41:38 --> Table 'luqueignacio.prodcutos' doesn't exist
+CRITICAL - 2022-04-13 19:43:29 --> Object of class CodeIgniter\Database\MySQLi\Builder could not be converted to string
+#0 D:\xampp\htdocs\LuqueIgnacio\app\Controllers\AdminController.php(32): App\Models\ProductoModel->busquedaPersonalizada(Array)
+#1 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(832): App\Controllers\AdminController->productos()
+#2 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#3 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\LuqueIgnacio\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-04-13 20:39:31 --> Table 'luqueignacio.usuario' doesn't exist
+CRITICAL - 2022-04-13 20:39:31 --> Call to a member function getResult() on bool
+#0 D:\xampp\htdocs\LuqueIgnacio\app\Controllers\AdminController.php(217): App\Models\UsuariosModel->busquedaPersonalizada(Array)
+#1 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(832): App\Controllers\AdminController->usuarios()
+#2 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#3 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\LuqueIgnacio\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-04-13 20:40:20 --> Table 'luqueignacio.usuario' doesn't exist
+CRITICAL - 2022-04-13 20:40:20 --> Call to a member function getResult() on bool
+#0 D:\xampp\htdocs\LuqueIgnacio\app\Controllers\AdminController.php(217): App\Models\UsuariosModel->busquedaPersonalizada(Array)
+#1 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(832): App\Controllers\AdminController->usuarios()
+#2 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#3 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\LuqueIgnacio\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-04-13 20:40:25 --> Table 'luqueignacio.usuario' doesn't exist
+CRITICAL - 2022-04-13 20:40:25 --> Call to a member function getResult() on bool
+#0 D:\xampp\htdocs\LuqueIgnacio\app\Controllers\AdminController.php(217): App\Models\UsuariosModel->busquedaPersonalizada(Array)
+#1 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(832): App\Controllers\AdminController->usuarios()
+#2 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#3 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\LuqueIgnacio\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-04-13 20:40:48 --> Table 'luqueignacio.usuario' doesn't exist
+CRITICAL - 2022-04-13 20:40:48 --> Call to a member function getResult() on bool
+#0 D:\xampp\htdocs\LuqueIgnacio\app\Controllers\AdminController.php(217): App\Models\UsuariosModel->busquedaPersonalizada(Array)
+#1 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(832): App\Controllers\AdminController->usuarios()
+#2 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#3 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\LuqueIgnacio\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-04-13 20:40:56 --> Unknown column 'Usuario_Nombre' in 'where clause'
+CRITICAL - 2022-04-13 20:40:56 --> Call to a member function getResult() on bool
+#0 D:\xampp\htdocs\LuqueIgnacio\app\Controllers\AdminController.php(217): App\Models\UsuariosModel->busquedaPersonalizada(Array)
+#1 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(832): App\Controllers\AdminController->usuarios()
+#2 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#3 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\LuqueIgnacio\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-04-13 20:41:04 --> Unknown column 'Usuario_Nombre' in 'where clause'
+CRITICAL - 2022-04-13 20:41:04 --> Call to a member function getResult() on bool
+#0 D:\xampp\htdocs\LuqueIgnacio\app\Controllers\AdminController.php(217): App\Models\UsuariosModel->busquedaPersonalizada(Array)
+#1 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(832): App\Controllers\AdminController->usuarios()
+#2 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#3 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\LuqueIgnacio\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-13 23:09:30 --> Undefined property: CodeIgniter\HTTP\Files\UploadedFile::$pathName
+#0 D:\xampp\htdocs\LuqueIgnacio\app\Models\ProductoModel.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\xampp\\htdocs...', 66)
+#1 D:\xampp\htdocs\LuqueIgnacio\app\Controllers\AdminController.php(78): App\Models\ProductoModel->guardarImg(Object(CodeIgniter\HTTP\Files\UploadedFile))
+#2 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(832): App\Controllers\AdminController->productosActualizar()
+#3 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#4 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\LuqueIgnacio\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-13 23:11:03 --> File not found: assets/img/productos/1649909463_afefe36ce9148cdcdee2.jpg
+#0 D:\xampp\htdocs\LuqueIgnacio\system\Files\File.php(46): CodeIgniter\Files\Exceptions\FileNotFoundException::forFileNotFound('assets/img/prod...')
+#1 D:\xampp\htdocs\LuqueIgnacio\system\Images\Handlers\BaseHandler.php(148): CodeIgniter\Files\File->__construct('assets/img/prod...', true)
+#2 D:\xampp\htdocs\LuqueIgnacio\app\Models\ProductoModel.php(67): CodeIgniter\Images\Handlers\BaseHandler->withFile('assets/img/prod...')
+#3 D:\xampp\htdocs\LuqueIgnacio\app\Controllers\AdminController.php(78): App\Models\ProductoModel->guardarImg(Object(CodeIgniter\HTTP\Files\UploadedFile))
+#4 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(832): App\Controllers\AdminController->productosActualizar()
+#5 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#6 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\LuqueIgnacio\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-13 23:12:43 --> Call to undefined method CodeIgniter\HTTP\Files\UploadedFile::save()
+#0 D:\xampp\htdocs\LuqueIgnacio\app\Controllers\AdminController.php(78): App\Models\ProductoModel->guardarImg(Object(CodeIgniter\HTTP\Files\UploadedFile))
+#1 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(832): App\Controllers\AdminController->productosActualizar()
+#2 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#3 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\LuqueIgnacio\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-13 23:13:03 --> File not found: assets/img/productos/1649909583_bd4c13b2746b7a499f11.jpg
+#0 D:\xampp\htdocs\LuqueIgnacio\system\Files\File.php(46): CodeIgniter\Files\Exceptions\FileNotFoundException::forFileNotFound('assets/img/prod...')
+#1 D:\xampp\htdocs\LuqueIgnacio\system\Images\Handlers\BaseHandler.php(148): CodeIgniter\Files\File->__construct('assets/img/prod...', true)
+#2 D:\xampp\htdocs\LuqueIgnacio\app\Models\ProductoModel.php(67): CodeIgniter\Images\Handlers\BaseHandler->withFile('assets/img/prod...')
+#3 D:\xampp\htdocs\LuqueIgnacio\app\Controllers\AdminController.php(78): App\Models\ProductoModel->guardarImg(Object(CodeIgniter\HTTP\Files\UploadedFile))
+#4 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(832): App\Controllers\AdminController->productosActualizar()
+#5 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#6 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\LuqueIgnacio\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-13 23:22:17 --> Attempt to read property "Producto_Nombre" on array
+#0 D:\xampp\htdocs\LuqueIgnacio\app\Views\admin\productos\crear.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'D:\\xampp\\htdocs...', 8)
+#1 D:\xampp\htdocs\LuqueIgnacio\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\LuqueIgnacio\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\LuqueIgnacio\system\Common.php(1089): CodeIgniter\View\View->render('admin/productos...', Array, true)
+#4 D:\xampp\htdocs\LuqueIgnacio\app\Controllers\AdminController.php(67): view('admin/productos...', Array)
+#5 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(832): App\Controllers\AdminController->productosCrear()
+#6 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#7 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\LuqueIgnacio\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-13 23:31:48 --> Attempt to read property "Producto_Id" on array
+#0 D:\xampp\htdocs\LuqueIgnacio\app\Models\CambiosModel.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'D:\\xampp\\htdocs...', 64)
+#1 D:\xampp\htdocs\LuqueIgnacio\app\Controllers\AdminController.php(61): App\Models\CambiosModel->registrarCambioProducto(Array)
+#2 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(832): App\Controllers\AdminController->productosCrear()
+#3 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#4 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\LuqueIgnacio\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-04-13 23:33:40 --> Duplicate entry '127' for key 'productos.Producto_Cod_UNIQUE'
+CRITICAL - 2022-04-13 23:33:40 --> Attempt to read property "Producto_Nombre" on array
+#0 D:\xampp\htdocs\LuqueIgnacio\app\Views\admin\productos\crear.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'D:\\xampp\\htdocs...', 8)
+#1 D:\xampp\htdocs\LuqueIgnacio\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\LuqueIgnacio\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\LuqueIgnacio\system\Common.php(1089): CodeIgniter\View\View->render('admin/productos...', Array, true)
+#4 D:\xampp\htdocs\LuqueIgnacio\app\Controllers\AdminController.php(68): view('admin/productos...', Array)
+#5 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(832): App\Controllers\AdminController->productosCrear()
+#6 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#7 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\LuqueIgnacio\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-13 23:33:52 --> Attempt to read property "Producto_Nombre" on array
+#0 D:\xampp\htdocs\LuqueIgnacio\app\Views\admin\productos\crear.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'D:\\xampp\\htdocs...', 8)
+#1 D:\xampp\htdocs\LuqueIgnacio\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\LuqueIgnacio\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\LuqueIgnacio\system\Common.php(1089): CodeIgniter\View\View->render('admin/productos...', Array, true)
+#4 D:\xampp\htdocs\LuqueIgnacio\app\Controllers\AdminController.php(68): view('admin/productos...', Array)
+#5 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(832): App\Controllers\AdminController->productosCrear()
+#6 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#7 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\LuqueIgnacio\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-13 23:34:06 --> Attempt to read property "Producto_Id" on array
+#0 D:\xampp\htdocs\LuqueIgnacio\app\Models\CambiosModel.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'D:\\xampp\\htdocs...', 64)
+#1 D:\xampp\htdocs\LuqueIgnacio\app\Controllers\AdminController.php(61): App\Models\CambiosModel->registrarCambioProducto(Array)
+#2 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(832): App\Controllers\AdminController->productosCrear()
+#3 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#4 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\LuqueIgnacio\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-04-13 23:34:27 --> Duplicate entry '12312' for key 'productos.Producto_Cod_UNIQUE'
+CRITICAL - 2022-04-13 23:34:27 --> Attempt to read property "Producto_Nombre" on array
+#0 D:\xampp\htdocs\LuqueIgnacio\app\Views\admin\productos\crear.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'D:\\xampp\\htdocs...', 8)
+#1 D:\xampp\htdocs\LuqueIgnacio\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\LuqueIgnacio\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\LuqueIgnacio\system\Common.php(1089): CodeIgniter\View\View->render('admin/productos...', Array, true)
+#4 D:\xampp\htdocs\LuqueIgnacio\app\Controllers\AdminController.php(69): view('admin/productos...', Array)
+#5 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(832): App\Controllers\AdminController->productosCrear()
+#6 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#7 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\LuqueIgnacio\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-13 23:36:01 --> Attempt to read property "Producto_Id" on array
+#0 D:\xampp\htdocs\LuqueIgnacio\app\Models\CambiosModel.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'D:\\xampp\\htdocs...', 64)
+#1 D:\xampp\htdocs\LuqueIgnacio\app\Controllers\AdminController.php(61): App\Models\CambiosModel->registrarCambioProducto(Array)
+#2 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(832): App\Controllers\AdminController->productosCrear()
+#3 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#4 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\LuqueIgnacio\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-04-13 23:37:00 --> Duplicate entry '333' for key 'productos.Producto_Cod_UNIQUE'
+CRITICAL - 2022-04-13 23:37:00 --> Attempt to read property "Producto_Nombre" on array
+#0 D:\xampp\htdocs\LuqueIgnacio\app\Views\admin\productos\crear.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'D:\\xampp\\htdocs...', 8)
+#1 D:\xampp\htdocs\LuqueIgnacio\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\LuqueIgnacio\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\LuqueIgnacio\system\Common.php(1089): CodeIgniter\View\View->render('admin/productos...', Array, true)
+#4 D:\xampp\htdocs\LuqueIgnacio\app\Controllers\AdminController.php(68): view('admin/productos...', Array)
+#5 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(832): App\Controllers\AdminController->productosCrear()
+#6 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#7 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\LuqueIgnacio\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-13 23:38:17 --> The original file is not a valid file.
+#0 D:\xampp\htdocs\LuqueIgnacio\system\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 D:\xampp\htdocs\LuqueIgnacio\app\Models\ProductoModel.php(65): CodeIgniter\HTTP\Files\UploadedFile->move('assets/img/prod...', '1649911097_4f31...')
+#2 D:\xampp\htdocs\LuqueIgnacio\app\Controllers\AdminController.php(88): App\Models\ProductoModel->guardarImg(Object(CodeIgniter\HTTP\Files\UploadedFile), '1649911097_4f31...')
+#3 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(832): App\Controllers\AdminController->productosActualizar()
+#4 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#5 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\LuqueIgnacio\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-13 23:38:52 --> The original file is not a valid file.
+#0 D:\xampp\htdocs\LuqueIgnacio\system\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 D:\xampp\htdocs\LuqueIgnacio\app\Models\ProductoModel.php(65): CodeIgniter\HTTP\Files\UploadedFile->move('assets/img/prod...', '1649911131_1938...')
+#2 D:\xampp\htdocs\LuqueIgnacio\app\Controllers\AdminController.php(89): App\Models\ProductoModel->guardarImg(Object(CodeIgniter\HTTP\Files\UploadedFile), '1649911131_1938...')
+#3 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(832): App\Controllers\AdminController->productosActualizar()
+#4 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#5 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\LuqueIgnacio\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-13 23:39:53 --> The original file is not a valid file.
+#0 D:\xampp\htdocs\LuqueIgnacio\system\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 D:\xampp\htdocs\LuqueIgnacio\app\Models\ProductoModel.php(65): CodeIgniter\HTTP\Files\UploadedFile->move('assets/img/prod...', '1649911193_3808...')
+#2 D:\xampp\htdocs\LuqueIgnacio\app\Controllers\AdminController.php(89): App\Models\ProductoModel->guardarImg(Object(CodeIgniter\HTTP\Files\UploadedFile), '1649911193_3808...')
+#3 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(832): App\Controllers\AdminController->productosActualizar()
+#4 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#5 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\LuqueIgnacio\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-13 23:40:04 --> Undefined variable $nombreImg
+#0 D:\xampp\htdocs\LuqueIgnacio\app\Controllers\AdminController.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\xampp\\htdocs...', 88)
+#1 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(832): App\Controllers\AdminController->productosActualizar()
+#2 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#3 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\LuqueIgnacio\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

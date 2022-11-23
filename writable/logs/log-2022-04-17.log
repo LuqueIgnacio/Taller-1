@@ -1,0 +1,11 @@
+CRITICAL - 2022-04-17 14:24:31 --> Undefined variable $usuario
+#0 D:\xampp\htdocs\LuqueIgnacio\app\Views\comprar.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\xampp\\htdocs...', 6)
+#1 D:\xampp\htdocs\LuqueIgnacio\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\LuqueIgnacio\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\LuqueIgnacio\system\Common.php(1089): CodeIgniter\View\View->render('comprar', Array, true)
+#4 D:\xampp\htdocs\LuqueIgnacio\app\Controllers\Home.php(62): view('comprar')
+#5 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(832): App\Controllers\Home->comprar()
+#6 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\LuqueIgnacio\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

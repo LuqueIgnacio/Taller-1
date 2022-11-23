@@ -1,0 +1,239 @@
+CRITICAL - 2022-04-14 10:52:05 --> CodeIgniter\Validation\Rules::is_unique(): Argument #2 ($field) must be of type string, null given, called in D:\xampp\htdocs\LuqueIgnacio\system\Validation\Validation.php on line 291
+#0 D:\xampp\htdocs\LuqueIgnacio\system\Validation\Validation.php(291): CodeIgniter\Validation\Rules->is_unique('arielr111116@gm...', NULL)
+#1 D:\xampp\htdocs\LuqueIgnacio\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('User_Email', 'User_Email', 'arielr111116@gm...', Array, Array)
+#2 D:\xampp\htdocs\LuqueIgnacio\system\BaseModel.php(1347): CodeIgniter\Validation\Validation->run(Array, NULL, NULL)
+#3 D:\xampp\htdocs\LuqueIgnacio\system\BaseModel.php(707): CodeIgniter\BaseModel->validate(Array)
+#4 D:\xampp\htdocs\LuqueIgnacio\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#5 D:\xampp\htdocs\LuqueIgnacio\app\Controllers\AuthController.php(22): CodeIgniter\Model->insert(Array)
+#6 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(832): App\Controllers\AuthController->register()
+#7 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#8 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\LuqueIgnacio\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-04-14 11:20:57 --> Undefined property: stdClass::$User_Name
+#0 D:\xampp\htdocs\LuqueIgnacio\app\Views\auth\register.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\xampp\\htdocs...', 6)
+#1 D:\xampp\htdocs\LuqueIgnacio\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\LuqueIgnacio\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\LuqueIgnacio\system\Common.php(1089): CodeIgniter\View\View->render('auth/register', Array, true)
+#4 D:\xampp\htdocs\LuqueIgnacio\app\Controllers\AuthController.php(35): view('auth/register', Array)
+#5 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(832): App\Controllers\AuthController->register()
+#6 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#7 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\LuqueIgnacio\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-14 11:25:53 --> Undefined property: stdClass::$User_Nombre
+#0 D:\xampp\htdocs\LuqueIgnacio\app\Views\auth\register.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\xampp\\htdocs...', 6)
+#1 D:\xampp\htdocs\LuqueIgnacio\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\LuqueIgnacio\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\LuqueIgnacio\system\Common.php(1089): CodeIgniter\View\View->render('auth/register', Array, true)
+#4 D:\xampp\htdocs\LuqueIgnacio\app\Controllers\AuthController.php(42): view('auth/register', Array)
+#5 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(832): App\Controllers\AuthController->register()
+#6 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#7 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\LuqueIgnacio\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-14 11:25:56 --> Undefined property: stdClass::$User_Nombre
+#0 D:\xampp\htdocs\LuqueIgnacio\app\Views\auth\register.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\xampp\\htdocs...', 6)
+#1 D:\xampp\htdocs\LuqueIgnacio\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\LuqueIgnacio\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\LuqueIgnacio\system\Common.php(1089): CodeIgniter\View\View->render('auth/register', Array, true)
+#4 D:\xampp\htdocs\LuqueIgnacio\app\Controllers\AuthController.php(42): view('auth/register', Array)
+#5 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(832): App\Controllers\AuthController->register()
+#6 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#7 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\LuqueIgnacio\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-14 11:26:02 --> Undefined property: stdClass::$User_Nombre
+#0 D:\xampp\htdocs\LuqueIgnacio\app\Views\auth\register.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\xampp\\htdocs...', 6)
+#1 D:\xampp\htdocs\LuqueIgnacio\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\LuqueIgnacio\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\LuqueIgnacio\system\Common.php(1089): CodeIgniter\View\View->render('auth/register', Array, true)
+#4 D:\xampp\htdocs\LuqueIgnacio\app\Controllers\AuthController.php(42): view('auth/register', Array)
+#5 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(832): App\Controllers\AuthController->register()
+#6 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#7 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\LuqueIgnacio\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-14 11:28:20 --> Attempt to read property "User_Nombre" on array
+#0 D:\xampp\htdocs\LuqueIgnacio\app\Views\auth\register.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'D:\\xampp\\htdocs...', 6)
+#1 D:\xampp\htdocs\LuqueIgnacio\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\LuqueIgnacio\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\LuqueIgnacio\system\Common.php(1089): CodeIgniter\View\View->render('auth/register', Array, true)
+#4 D:\xampp\htdocs\LuqueIgnacio\app\Controllers\AuthController.php(43): view('auth/register', Array)
+#5 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(832): App\Controllers\AuthController->register()
+#6 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#7 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\LuqueIgnacio\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-04-14 11:43:14 --> Duplicate entry '44000744' for key 'usuarios.User_DNI'
+ERROR - 2022-04-14 11:44:28 --> Duplicate entry '44000744' for key 'usuarios.User_DNI'
+ERROR - 2022-04-14 11:45:04 --> Duplicate entry '44000744' for key 'usuarios.User_DNI'
+ERROR - 2022-04-14 11:45:35 --> Duplicate entry '44000744' for key 'usuarios.User_DNI'
+ERROR - 2022-04-14 11:46:36 --> Duplicate entry '44000744' for key 'usuarios.User_DNI'
+CRITICAL - 2022-04-14 11:52:14 -->  route cannot be found while reverse-routing.
+#0 D:\xampp\htdocs\LuqueIgnacio\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 D:\xampp\htdocs\LuqueIgnacio\app\Controllers\AuthController.php(37): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(832): App\Controllers\AuthController->register()
+#3 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#4 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\LuqueIgnacio\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-14 11:53:46 --> Invalid file: auth/confirmar.php
+#0 D:\xampp\htdocs\LuqueIgnacio\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('auth/confirmar....')
+#1 D:\xampp\htdocs\LuqueIgnacio\system\Common.php(1089): CodeIgniter\View\View->render('auth/confirmar', Array, true)
+#2 D:\xampp\htdocs\LuqueIgnacio\app\Controllers\AuthController.php(54): view('auth/confirmar')
+#3 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(832): App\Controllers\AuthController->confirmar()
+#4 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#5 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\LuqueIgnacio\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-14 19:06:32 --> view(): Argument #2 ($data) must be of type array, stdClass given, called in D:\xampp\htdocs\LuqueIgnacio\app\Controllers\AuthController.php on line 64
+#0 D:\xampp\htdocs\LuqueIgnacio\app\Controllers\AuthController.php(64): view('mails/confirmar...', Object(stdClass))
+#1 D:\xampp\htdocs\LuqueIgnacio\app\Controllers\AuthController.php(37): App\Controllers\AuthController->enviarMailRegistro(Object(stdClass))
+#2 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(832): App\Controllers\AuthController->register()
+#3 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#4 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\LuqueIgnacio\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-14 19:07:01 --> Undefined variable $usuario
+#0 D:\xampp\htdocs\LuqueIgnacio\app\Views\mails\confirmarRegistro.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\xampp\\htdocs...', 11)
+#1 D:\xampp\htdocs\LuqueIgnacio\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\LuqueIgnacio\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\LuqueIgnacio\system\Common.php(1089): CodeIgniter\View\View->render('mails/confirmar...', Array, true)
+#4 D:\xampp\htdocs\LuqueIgnacio\app\Controllers\AuthController.php(64): view('mails/confirmar...', Array)
+#5 D:\xampp\htdocs\LuqueIgnacio\app\Controllers\AuthController.php(37): App\Controllers\AuthController->enviarMailRegistro(Object(stdClass))
+#6 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(832): App\Controllers\AuthController->register()
+#7 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#8 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\LuqueIgnacio\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-04-14 19:16:30 --> There is no data to update.
+#0 D:\xampp\htdocs\LuqueIgnacio\system\BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 D:\xampp\htdocs\LuqueIgnacio\system\Model.php(651): CodeIgniter\BaseModel->update(Array, Array)
+#2 D:\xampp\htdocs\LuqueIgnacio\app\Models\UsuariosModel.php(77): CodeIgniter\Model->update('16', Array)
+#3 D:\xampp\htdocs\LuqueIgnacio\app\Controllers\AuthController.php(61): App\Models\UsuariosModel->confirmarRegistroUsuario('6258b7c1da0ed')
+#4 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(832): App\Controllers\AuthController->confirmarRegistro()
+#5 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#6 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\LuqueIgnacio\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-14 19:18:35 --> There is no data to update.
+#0 D:\xampp\htdocs\LuqueIgnacio\system\BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 D:\xampp\htdocs\LuqueIgnacio\system\Model.php(651): CodeIgniter\BaseModel->update(Array, Array)
+#2 D:\xampp\htdocs\LuqueIgnacio\app\Models\UsuariosModel.php(78): CodeIgniter\Model->update('16', Array)
+#3 D:\xampp\htdocs\LuqueIgnacio\app\Controllers\AuthController.php(61): App\Models\UsuariosModel->confirmarRegistroUsuario('6258b7c1da0ed')
+#4 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(832): App\Controllers\AuthController->confirmarRegistro()
+#5 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#6 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\LuqueIgnacio\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-14 21:31:46 --> Undefined array key 0
+#0 D:\xampp\htdocs\LuqueIgnacio\app\Models\UsuariosModel.php(75): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\xampp\\htdocs...', 75)
+#1 D:\xampp\htdocs\LuqueIgnacio\app\Controllers\AuthController.php(61): App\Models\UsuariosModel->confirmarRegistroUsuario('6258b7c1da0ed')
+#2 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(832): App\Controllers\AuthController->confirmarRegistro()
+#3 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#4 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\LuqueIgnacio\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-14 21:32:58 -->  route cannot be found while reverse-routing.
+#0 D:\xampp\htdocs\LuqueIgnacio\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 D:\xampp\htdocs\LuqueIgnacio\app\Controllers\AuthController.php(64): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(832): App\Controllers\AuthController->confirmarRegistro()
+#3 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#4 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\LuqueIgnacio\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-14 21:33:30 -->  route cannot be found while reverse-routing.
+#0 D:\xampp\htdocs\LuqueIgnacio\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 D:\xampp\htdocs\LuqueIgnacio\app\Controllers\AuthController.php(64): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(832): App\Controllers\AuthController->confirmarRegistro()
+#3 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#4 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\LuqueIgnacio\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-14 21:33:40 -->  route cannot be found while reverse-routing.
+#0 D:\xampp\htdocs\LuqueIgnacio\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 D:\xampp\htdocs\LuqueIgnacio\app\Controllers\AuthController.php(64): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(832): App\Controllers\AuthController->confirmarRegistro()
+#3 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#4 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\LuqueIgnacio\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-14 22:45:24 --> Attempt to read property "User_Email" on array
+#0 D:\xampp\htdocs\LuqueIgnacio\app\Controllers\AuthController.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'D:\\xampp\\htdocs...', 32)
+#1 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(832): App\Controllers\AuthController->login()
+#2 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#3 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\LuqueIgnacio\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-14 22:59:36 --> File not found: D:\xampp\tmp\phpFE62.tmp1649995176_f9b533dc624e4dfde957.jpg
+#0 D:\xampp\htdocs\LuqueIgnacio\system\Files\File.php(46): CodeIgniter\Files\Exceptions\FileNotFoundException::forFileNotFound('D:\\xampp\\tmp\\ph...')
+#1 D:\xampp\htdocs\LuqueIgnacio\system\Images\Handlers\BaseHandler.php(148): CodeIgniter\Files\File->__construct('D:\\xampp\\tmp\\ph...', true)
+#2 D:\xampp\htdocs\LuqueIgnacio\app\Models\ProductoModel.php(67): CodeIgniter\Images\Handlers\BaseHandler->withFile('D:\\xampp\\tmp\\ph...')
+#3 D:\xampp\htdocs\LuqueIgnacio\app\Controllers\AdminController.php(91): App\Models\ProductoModel->guardarImg(Object(CodeIgniter\HTTP\Files\UploadedFile), '1649995176_f9b5...')
+#4 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(832): App\Controllers\AdminController->productosActualizar()
+#5 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#6 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\LuqueIgnacio\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-14 23:04:19 --> Undefined global variable $_SESSION
+#0 D:\xampp\htdocs\LuqueIgnacio\app\Controllers\AdminController.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined globa...', 'D:\\xampp\\htdocs...', 29)
+#1 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(832): App\Controllers\AdminController->productos()
+#2 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#3 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\LuqueIgnacio\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-14 23:16:20 --> Undefined variable $sessionActiva
+#0 D:\xampp\htdocs\LuqueIgnacio\app\Views\templates\header.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\xampp\\htdocs...', 31)
+#1 D:\xampp\htdocs\LuqueIgnacio\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\LuqueIgnacio\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\LuqueIgnacio\system\Common.php(1089): CodeIgniter\View\View->render('templates/heade...', Array, true)
+#4 D:\xampp\htdocs\LuqueIgnacio\app\Controllers\Home.php(9): view('templates/heade...')
+#5 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\LuqueIgnacio\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-14 23:17:04 --> Undefined variable $sessionActiva
+#0 D:\xampp\htdocs\LuqueIgnacio\app\Views\templates\header.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\xampp\\htdocs...', 26)
+#1 D:\xampp\htdocs\LuqueIgnacio\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\LuqueIgnacio\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\LuqueIgnacio\system\Common.php(1089): CodeIgniter\View\View->render('templates/heade...', Array, true)
+#4 D:\xampp\htdocs\LuqueIgnacio\app\Controllers\Home.php(9): view('templates/heade...')
+#5 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\LuqueIgnacio\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-14 23:17:26 --> Undefined variable $sessionActiva
+#0 D:\xampp\htdocs\LuqueIgnacio\app\Views\templates\header.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\xampp\\htdocs...', 28)
+#1 D:\xampp\htdocs\LuqueIgnacio\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\LuqueIgnacio\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\LuqueIgnacio\system\Common.php(1089): CodeIgniter\View\View->render('templates/heade...', Array, true)
+#4 D:\xampp\htdocs\LuqueIgnacio\app\Controllers\Home.php(9): view('templates/heade...')
+#5 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\LuqueIgnacio\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-14 23:19:40 --> Attempt to read property "User_Email" on bool
+#0 D:\xampp\htdocs\LuqueIgnacio\app\Controllers\AuthController.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'D:\\xampp\\htdocs...', 37)
+#1 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(832): App\Controllers\AuthController->login()
+#2 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#3 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\LuqueIgnacio\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-14 23:20:12 --> Attempt to read property "User_Email" on bool
+#0 D:\xampp\htdocs\LuqueIgnacio\app\Controllers\AuthController.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'D:\\xampp\\htdocs...', 37)
+#1 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(832): App\Controllers\AuthController->login()
+#2 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#3 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\LuqueIgnacio\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-14 23:20:57 --> Attempt to read property "User_Email" on bool
+#0 D:\xampp\htdocs\LuqueIgnacio\app\Controllers\AuthController.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'D:\\xampp\\htdocs...', 36)
+#1 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(832): App\Controllers\AuthController->login()
+#2 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#3 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\LuqueIgnacio\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

@@ -1,0 +1,107 @@
+CRITICAL - 2022-04-18 11:27:20 --> foreach() argument must be of type array|object, null given
+#0 D:\xampp\htdocs\LuqueIgnacio\app\Models\VentasModel.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'D:\\xampp\\htdocs...', 37)
+#1 D:\xampp\htdocs\LuqueIgnacio\app\Models\VentasModel.php(28): App\Models\VentasModel->guardarDetallesVenta(4, NULL)
+#2 D:\xampp\htdocs\LuqueIgnacio\app\Controllers\Home.php(103): App\Models\VentasModel->guardarVenta(Array)
+#3 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(832): App\Controllers\Home->comprar()
+#4 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\LuqueIgnacio\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-18 11:28:10 --> foreach() argument must be of type array|object, null given
+#0 D:\xampp\htdocs\LuqueIgnacio\app\Models\VentasModel.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'D:\\xampp\\htdocs...', 37)
+#1 D:\xampp\htdocs\LuqueIgnacio\app\Models\VentasModel.php(28): App\Models\VentasModel->guardarDetallesVenta(5, NULL)
+#2 D:\xampp\htdocs\LuqueIgnacio\app\Controllers\Home.php(103): App\Models\VentasModel->guardarVenta(Array)
+#3 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(832): App\Controllers\Home->comprar()
+#4 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\LuqueIgnacio\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-18 11:30:25 --> foreach() argument must be of type array|object, null given
+#0 D:\xampp\htdocs\LuqueIgnacio\app\Models\VentasModel.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'D:\\xampp\\htdocs...', 37)
+#1 D:\xampp\htdocs\LuqueIgnacio\app\Models\VentasModel.php(28): App\Models\VentasModel->guardarDetallesVenta(6, NULL)
+#2 D:\xampp\htdocs\LuqueIgnacio\app\Controllers\Home.php(103): App\Models\VentasModel->guardarVenta(Array)
+#3 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(832): App\Controllers\Home->comprar()
+#4 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\LuqueIgnacio\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-18 11:31:10 --> foreach() argument must be of type array|object, null given
+#0 D:\xampp\htdocs\LuqueIgnacio\app\Models\VentasModel.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'D:\\xampp\\htdocs...', 37)
+#1 D:\xampp\htdocs\LuqueIgnacio\app\Models\VentasModel.php(28): App\Models\VentasModel->guardarDetallesVenta(7, NULL)
+#2 D:\xampp\htdocs\LuqueIgnacio\app\Controllers\Home.php(103): App\Models\VentasModel->guardarVenta(Array)
+#3 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(832): App\Controllers\Home->comprar()
+#4 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\LuqueIgnacio\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-18 11:33:36 --> foreach() argument must be of type array|object, null given
+#0 D:\xampp\htdocs\LuqueIgnacio\app\Models\VentasModel.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'D:\\xampp\\htdocs...', 37)
+#1 D:\xampp\htdocs\LuqueIgnacio\app\Models\VentasModel.php(28): App\Models\VentasModel->guardarDetallesVenta(8, NULL)
+#2 D:\xampp\htdocs\LuqueIgnacio\app\Controllers\Home.php(103): App\Models\VentasModel->guardarVenta(Array)
+#3 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(832): App\Controllers\Home->comprar()
+#4 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\LuqueIgnacio\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-18 11:39:52 --> foreach() argument must be of type array|object, null given
+#0 D:\xampp\htdocs\LuqueIgnacio\app\Models\VentasModel.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'D:\\xampp\\htdocs...', 37)
+#1 D:\xampp\htdocs\LuqueIgnacio\app\Models\VentasModel.php(28): App\Models\VentasModel->guardarDetallesVenta(10, NULL)
+#2 D:\xampp\htdocs\LuqueIgnacio\app\Controllers\Home.php(103): App\Models\VentasModel->guardarVenta(Array)
+#3 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(832): App\Controllers\Home->comprar()
+#4 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\LuqueIgnacio\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-18 11:41:05 --> foreach() argument must be of type array|object, null given
+#0 D:\xampp\htdocs\LuqueIgnacio\app\Models\VentasModel.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'D:\\xampp\\htdocs...', 37)
+#1 D:\xampp\htdocs\LuqueIgnacio\app\Models\VentasModel.php(28): App\Models\VentasModel->guardarDetallesVenta(11, NULL)
+#2 D:\xampp\htdocs\LuqueIgnacio\app\Controllers\Home.php(103): App\Models\VentasModel->guardarVenta(Array)
+#3 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(832): App\Controllers\Home->comprar()
+#4 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\LuqueIgnacio\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-18 11:53:51 --> Undefined variable $ventas
+#0 D:\xampp\htdocs\LuqueIgnacio\app\Views\admin\ventas\index.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\xampp\\htdocs...', 43)
+#1 D:\xampp\htdocs\LuqueIgnacio\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\LuqueIgnacio\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\LuqueIgnacio\system\Common.php(1089): CodeIgniter\View\View->render('admin/ventas/in...', Array, true)
+#4 D:\xampp\htdocs\LuqueIgnacio\app\Controllers\AdminController.php(298): view('admin/ventas/in...')
+#5 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(832): App\Controllers\AdminController->ventas()
+#6 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#7 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\LuqueIgnacio\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-18 11:54:54 --> Undefined property: stdClass::$createdAt
+#0 D:\xampp\htdocs\LuqueIgnacio\app\Views\admin\ventas\index.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\xampp\\htdocs...', 53)
+#1 D:\xampp\htdocs\LuqueIgnacio\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\LuqueIgnacio\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\LuqueIgnacio\system\Common.php(1089): CodeIgniter\View\View->render('admin/ventas/in...', Array, true)
+#4 D:\xampp\htdocs\LuqueIgnacio\app\Controllers\AdminController.php(298): view('admin/ventas/in...', Array)
+#5 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(832): App\Controllers\AdminController->ventas()
+#6 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#7 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\LuqueIgnacio\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-18 14:43:23 --> Undefined property: stdClass::$VD_Id
+#0 D:\xampp\htdocs\LuqueIgnacio\app\Views\admin\ventas\index.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\xampp\\htdocs...', 42)
+#1 D:\xampp\htdocs\LuqueIgnacio\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\LuqueIgnacio\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\LuqueIgnacio\system\Common.php(1089): CodeIgniter\View\View->render('admin/ventas/in...', Array, true)
+#4 D:\xampp\htdocs\LuqueIgnacio\app\Controllers\AdminController.php(298): view('admin/ventas/in...', Array)
+#5 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(832): App\Controllers\AdminController->ventas()
+#6 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#7 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\LuqueIgnacio\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-18 14:43:36 --> Undefined property: stdClass::$VD_Id
+#0 D:\xampp\htdocs\LuqueIgnacio\app\Views\admin\ventas\index.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\xampp\\htdocs...', 42)
+#1 D:\xampp\htdocs\LuqueIgnacio\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\LuqueIgnacio\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\LuqueIgnacio\system\Common.php(1089): CodeIgniter\View\View->render('admin/ventas/in...', Array, true)
+#4 D:\xampp\htdocs\LuqueIgnacio\app\Controllers\AdminController.php(298): view('admin/ventas/in...', Array)
+#5 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(832): App\Controllers\AdminController->ventas()
+#6 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#7 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\LuqueIgnacio\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

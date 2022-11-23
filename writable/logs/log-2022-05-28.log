@@ -1,0 +1,142 @@
+CRITICAL - 2022-05-28 16:26:13 --> Undefined variable $titulo
+#0 D:\xampp\htdocs\LuqueIgnacio\app\Views\templates\header.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\xampp\\htdocs...', 7)
+#1 D:\xampp\htdocs\LuqueIgnacio\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\LuqueIgnacio\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\LuqueIgnacio\system\Common.php(1089): CodeIgniter\View\View->render('templates/heade...', Array, true)
+#4 D:\xampp\htdocs\LuqueIgnacio\app\Controllers\AuthController.php(54): view('templates/heade...')
+#5 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(832): App\Controllers\AuthController->login()
+#6 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#7 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\LuqueIgnacio\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-28 16:54:31 --> Undefined constant "App\Controllers\session"
+#0 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(832): App\Controllers\Home->comprar()
+#1 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\LuqueIgnacio\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-28 16:56:29 --> Undefined constant "App\Controllers\session"
+#0 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(832): App\Controllers\Home->comprar()
+#1 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\LuqueIgnacio\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-28 20:28:39 --> uasort(): Argument #2 ($callback) must be a valid callback, function "cmp" not found or invalid function name
+#0 D:\xampp\htdocs\LuqueIgnacio\app\Controllers\Home.php(22): uasort(Array, 'cmp')
+#1 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(832): App\Controllers\Home->contacto()
+#2 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\LuqueIgnacio\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-28 20:29:12 --> uasort(): Argument #2 ($callback) must be a valid callback, function "cmp" not found or invalid function name
+#0 D:\xampp\htdocs\LuqueIgnacio\app\Controllers\Home.php(22): uasort(Array, 'cmp')
+#1 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(832): App\Controllers\Home->contacto()
+#2 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\LuqueIgnacio\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-28 20:29:52 --> uasort(): Argument #2 ($callback) must be a valid callback, function "cmp" not found or invalid function name
+#0 D:\xampp\htdocs\LuqueIgnacio\app\Controllers\Home.php(23): uasort(Array, 'cmp')
+#1 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(832): App\Controllers\Home->contacto()
+#2 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\LuqueIgnacio\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-28 20:30:12 --> uasort(): Argument #2 ($callback) must be a valid callback, function "cmp" not found or invalid function name
+#0 D:\xampp\htdocs\LuqueIgnacio\app\Controllers\Home.php(30): uasort(Array, 'cmp')
+#1 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(832): App\Controllers\Home->contacto()
+#2 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\LuqueIgnacio\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-28 20:30:13 --> uasort(): Argument #2 ($callback) must be a valid callback, function "cmp" not found or invalid function name
+#0 D:\xampp\htdocs\LuqueIgnacio\app\Controllers\Home.php(30): uasort(Array, 'cmp')
+#1 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(832): App\Controllers\Home->contacto()
+#2 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\LuqueIgnacio\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-28 20:30:14 --> uasort(): Argument #2 ($callback) must be a valid callback, function "cmp" not found or invalid function name
+#0 D:\xampp\htdocs\LuqueIgnacio\app\Controllers\Home.php(30): uasort(Array, 'cmp')
+#1 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(832): App\Controllers\Home->contacto()
+#2 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\LuqueIgnacio\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-28 20:31:34 --> uasort(): Argument #2 ($callback) must be a valid callback, function "cmp" not found or invalid function name
+#0 D:\xampp\htdocs\LuqueIgnacio\app\Controllers\Home.php(25): uasort(Array, 'cmp')
+#1 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(832): App\Controllers\Home->contacto()
+#2 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\LuqueIgnacio\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-28 20:32:41 --> uasort(): Argument #2 ($callback) must be a valid callback, class "Home" not found
+#0 D:\xampp\htdocs\LuqueIgnacio\app\Controllers\Home.php(25): uasort(Array, Array)
+#1 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(832): App\Controllers\Home->contacto()
+#2 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\LuqueIgnacio\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-28 20:32:49 --> uasort(): Argument #2 ($callback) must be a valid callback, class "Home" not found
+#0 D:\xampp\htdocs\LuqueIgnacio\app\Controllers\Home.php(25): uasort(Array, Array)
+#1 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(832): App\Controllers\Home->contacto()
+#2 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\LuqueIgnacio\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-28 20:32:50 --> uasort(): Argument #2 ($callback) must be a valid callback, class "Home" not found
+#0 D:\xampp\htdocs\LuqueIgnacio\app\Controllers\Home.php(25): uasort(Array, Array)
+#1 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(832): App\Controllers\Home->contacto()
+#2 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\LuqueIgnacio\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-28 20:32:51 --> uasort(): Argument #2 ($callback) must be a valid callback, class "Home" not found
+#0 D:\xampp\htdocs\LuqueIgnacio\app\Controllers\Home.php(25): uasort(Array, Array)
+#1 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(832): App\Controllers\Home->contacto()
+#2 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\LuqueIgnacio\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-28 20:33:24 --> uasort(): Argument #2 ($callback) must be a valid callback, class "Home" not found
+#0 D:\xampp\htdocs\LuqueIgnacio\app\Controllers\Home.php(25): uasort(Array, Array)
+#1 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(832): App\Controllers\Home->contacto()
+#2 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\LuqueIgnacio\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-28 20:33:25 --> uasort(): Argument #2 ($callback) must be a valid callback, class "Home" not found
+#0 D:\xampp\htdocs\LuqueIgnacio\app\Controllers\Home.php(25): uasort(Array, Array)
+#1 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(832): App\Controllers\Home->contacto()
+#2 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\LuqueIgnacio\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-28 20:33:25 --> uasort(): Argument #2 ($callback) must be a valid callback, class "Home" not found
+#0 D:\xampp\htdocs\LuqueIgnacio\app\Controllers\Home.php(25): uasort(Array, Array)
+#1 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(832): App\Controllers\Home->contacto()
+#2 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\LuqueIgnacio\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-28 20:34:06 --> uasort(): Argument #2 ($callback) must be a valid callback, class " App\Controllers\Home" not found
+#0 D:\xampp\htdocs\LuqueIgnacio\app\Controllers\Home.php(25): uasort(Array, Array)
+#1 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(832): App\Controllers\Home->contacto()
+#2 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\LuqueIgnacio\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-28 20:34:09 --> uasort(): Argument #2 ($callback) must be a valid callback, class " App\Controllers\Home" not found
+#0 D:\xampp\htdocs\LuqueIgnacio\app\Controllers\Home.php(25): uasort(Array, Array)
+#1 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(832): App\Controllers\Home->contacto()
+#2 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\LuqueIgnacio\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-28 21:26:49 --> uasort(): Argument #2 ($callback) must be a valid callback, class App\Controllers\Home does not have a method "cmp"
+#0 D:\xampp\htdocs\LuqueIgnacio\app\Controllers\Home.php(25): uasort(Array, Array)
+#1 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(832): App\Controllers\Home->contacto()
+#2 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\LuqueIgnacio\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

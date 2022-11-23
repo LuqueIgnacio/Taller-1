@@ -1,0 +1,423 @@
+CRITICAL - 2022-04-11 09:41:57 --> Invalid file: admin/ventas/ventas.php
+#0 D:\xampp\htdocs\LuqueIgnacio\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/ventas/ve...')
+#1 D:\xampp\htdocs\LuqueIgnacio\system\Common.php(1089): CodeIgniter\View\View->render('admin/ventas/ve...', Array, true)
+#2 D:\xampp\htdocs\LuqueIgnacio\app\Controllers\AdminController.php(47): view('admin/ventas/ve...')
+#3 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(832): App\Controllers\AdminController->ventas()
+#4 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#5 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\LuqueIgnacio\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-11 14:12:53 --> Invalid file: admin/marcas/actualizar.php
+#0 D:\xampp\htdocs\LuqueIgnacio\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/marcas/ac...')
+#1 D:\xampp\htdocs\LuqueIgnacio\system\Common.php(1089): CodeIgniter\View\View->render('admin/marcas/ac...', Array, true)
+#2 D:\xampp\htdocs\LuqueIgnacio\app\Controllers\AdminController.php(50): view('admin/marcas/ac...')
+#3 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(832): App\Controllers\AdminController->marcasActualizar()
+#4 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#5 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\LuqueIgnacio\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-11 14:46:31 --> Attempt to read property "errno" on bool
+#0 D:\xampp\htdocs\LuqueIgnacio\system\Database\MySQLi\Connection.php(555): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'D:\\xampp\\htdocs...', 555)
+#1 D:\xampp\htdocs\LuqueIgnacio\system\Model.php(411): CodeIgniter\Database\MySQLi\Connection->error()
+#2 D:\xampp\htdocs\LuqueIgnacio\system\BaseModel.php(1059): CodeIgniter\Model->doErrors()
+#3 D:\xampp\htdocs\LuqueIgnacio\app\Controllers\AdminController.php(33): CodeIgniter\BaseModel->errors()
+#4 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(832): App\Controllers\AdminController->productosCrear()
+#5 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#6 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\LuqueIgnacio\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-11 15:02:26 --> Call to undefined method App\Models\ProductoModel::getErrors
+#0 D:\xampp\htdocs\LuqueIgnacio\app\Controllers\AdminController.php(32): CodeIgniter\Model->__call('getErrors', Array)
+#1 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(832): App\Controllers\AdminController->productosCrear()
+#2 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#3 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\LuqueIgnacio\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-11 15:10:12 --> Undefined variable $productoModel
+#0 D:\xampp\htdocs\LuqueIgnacio\app\Controllers\AdminController.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\xampp\\htdocs...', 36)
+#1 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(832): App\Controllers\AdminController->productosCrear()
+#2 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#3 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\LuqueIgnacio\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-11 15:14:31 --> Undefined variable $errores
+#0 D:\xampp\htdocs\LuqueIgnacio\app\Views\admin\productos\crear.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\xampp\\htdocs...', 14)
+#1 D:\xampp\htdocs\LuqueIgnacio\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\LuqueIgnacio\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\LuqueIgnacio\system\Common.php(1089): CodeIgniter\View\View->render('admin/productos...', Array, true)
+#4 D:\xampp\htdocs\LuqueIgnacio\app\Controllers\AdminController.php(37): view('admin/productos...', Array)
+#5 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(832): App\Controllers\AdminController->productosCrear()
+#6 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#7 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\LuqueIgnacio\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-11 15:15:01 --> Undefined variable $errores
+#0 D:\xampp\htdocs\LuqueIgnacio\app\Views\admin\productos\crear.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\xampp\\htdocs...', 14)
+#1 D:\xampp\htdocs\LuqueIgnacio\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\LuqueIgnacio\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\LuqueIgnacio\system\Common.php(1089): CodeIgniter\View\View->render('admin/productos...', Array, true)
+#4 D:\xampp\htdocs\LuqueIgnacio\app\Controllers\AdminController.php(37): view('admin/productos...', Array)
+#5 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(832): App\Controllers\AdminController->productosCrear()
+#6 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#7 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\LuqueIgnacio\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-11 15:16:18 --> Undefined variable $errores
+#0 D:\xampp\htdocs\LuqueIgnacio\app\Views\admin\productos\crear.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\xampp\\htdocs...', 14)
+#1 D:\xampp\htdocs\LuqueIgnacio\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\LuqueIgnacio\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\LuqueIgnacio\system\Common.php(1089): CodeIgniter\View\View->render('admin/productos...', Array, true)
+#4 D:\xampp\htdocs\LuqueIgnacio\app\Controllers\AdminController.php(37): view('admin/productos...', Array)
+#5 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(832): App\Controllers\AdminController->productosCrear()
+#6 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#7 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\LuqueIgnacio\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-11 17:36:48 --> Undefined variable $datos
+#0 D:\xampp\htdocs\LuqueIgnacio\app\Views\admin\productos\crear.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\xampp\\htdocs...', 8)
+#1 D:\xampp\htdocs\LuqueIgnacio\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\LuqueIgnacio\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\LuqueIgnacio\system\Common.php(1089): CodeIgniter\View\View->render('admin/productos...', Array, true)
+#4 D:\xampp\htdocs\LuqueIgnacio\app\Controllers\AdminController.php(38): view('admin/productos...', Array)
+#5 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(832): App\Controllers\AdminController->productosCrear()
+#6 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#7 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\LuqueIgnacio\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-11 17:37:06 --> Undefined variable $producto
+#0 D:\xampp\htdocs\LuqueIgnacio\app\Views\admin\productos\crear.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\xampp\\htdocs...', 8)
+#1 D:\xampp\htdocs\LuqueIgnacio\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\LuqueIgnacio\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\LuqueIgnacio\system\Common.php(1089): CodeIgniter\View\View->render('admin/productos...', Array, true)
+#4 D:\xampp\htdocs\LuqueIgnacio\app\Controllers\AdminController.php(38): view('admin/productos...', Array)
+#5 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(832): App\Controllers\AdminController->productosCrear()
+#6 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#7 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\LuqueIgnacio\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-11 17:37:41 --> Undefined variable $producto
+#0 D:\xampp\htdocs\LuqueIgnacio\app\Views\admin\productos\crear.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\xampp\\htdocs...', 8)
+#1 D:\xampp\htdocs\LuqueIgnacio\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\LuqueIgnacio\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\LuqueIgnacio\system\Common.php(1089): CodeIgniter\View\View->render('admin/productos...', Array, true)
+#4 D:\xampp\htdocs\LuqueIgnacio\app\Controllers\AdminController.php(39): view('admin/productos...', Array)
+#5 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(832): App\Controllers\AdminController->productosCrear()
+#6 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#7 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\LuqueIgnacio\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-11 18:04:04 --> Undefined variable $producto
+#0 D:\xampp\htdocs\LuqueIgnacio\app\Views\admin\productos\actualizar.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\xampp\\htdocs...', 8)
+#1 D:\xampp\htdocs\LuqueIgnacio\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\LuqueIgnacio\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\LuqueIgnacio\system\Common.php(1089): CodeIgniter\View\View->render('admin/productos...', Array, true)
+#4 D:\xampp\htdocs\LuqueIgnacio\app\Controllers\AdminController.php(50): view('admin/productos...')
+#5 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(832): App\Controllers\AdminController->productosActualizar()
+#6 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#7 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\LuqueIgnacio\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-11 18:06:18 --> Undefined variable $producto
+#0 D:\xampp\htdocs\LuqueIgnacio\app\Views\admin\productos\actualizar.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\xampp\\htdocs...', 8)
+#1 D:\xampp\htdocs\LuqueIgnacio\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\LuqueIgnacio\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\LuqueIgnacio\system\Common.php(1089): CodeIgniter\View\View->render('admin/productos...', Array, true)
+#4 D:\xampp\htdocs\LuqueIgnacio\app\Controllers\AdminController.php(54): view('admin/productos...', Array)
+#5 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(832): App\Controllers\AdminController->productosActualizar()
+#6 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#7 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\LuqueIgnacio\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-11 18:06:18 --> Undefined variable $producto
+#0 D:\xampp\htdocs\LuqueIgnacio\app\Views\admin\productos\actualizar.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\xampp\\htdocs...', 8)
+#1 D:\xampp\htdocs\LuqueIgnacio\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\LuqueIgnacio\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\LuqueIgnacio\system\Common.php(1089): CodeIgniter\View\View->render('admin/productos...', Array, true)
+#4 D:\xampp\htdocs\LuqueIgnacio\app\Controllers\AdminController.php(54): view('admin/productos...', Array)
+#5 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(832): App\Controllers\AdminController->productosActualizar()
+#6 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#7 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\LuqueIgnacio\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-11 18:06:22 --> Undefined variable $producto
+#0 D:\xampp\htdocs\LuqueIgnacio\app\Views\admin\productos\actualizar.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\xampp\\htdocs...', 8)
+#1 D:\xampp\htdocs\LuqueIgnacio\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\LuqueIgnacio\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\LuqueIgnacio\system\Common.php(1089): CodeIgniter\View\View->render('admin/productos...', Array, true)
+#4 D:\xampp\htdocs\LuqueIgnacio\app\Controllers\AdminController.php(54): view('admin/productos...', Array)
+#5 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(832): App\Controllers\AdminController->productosActualizar()
+#6 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#7 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\LuqueIgnacio\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-11 18:06:38 --> Undefined variable $producto
+#0 D:\xampp\htdocs\LuqueIgnacio\app\Views\admin\productos\actualizar.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\xampp\\htdocs...', 8)
+#1 D:\xampp\htdocs\LuqueIgnacio\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\LuqueIgnacio\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\LuqueIgnacio\system\Common.php(1089): CodeIgniter\View\View->render('admin/productos...', Array, true)
+#4 D:\xampp\htdocs\LuqueIgnacio\app\Controllers\AdminController.php(54): view('admin/productos...', Array)
+#5 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(832): App\Controllers\AdminController->productosActualizar()
+#6 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#7 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\LuqueIgnacio\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-11 18:06:40 --> Undefined variable $producto
+#0 D:\xampp\htdocs\LuqueIgnacio\app\Views\admin\productos\actualizar.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\xampp\\htdocs...', 8)
+#1 D:\xampp\htdocs\LuqueIgnacio\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\LuqueIgnacio\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\LuqueIgnacio\system\Common.php(1089): CodeIgniter\View\View->render('admin/productos...', Array, true)
+#4 D:\xampp\htdocs\LuqueIgnacio\app\Controllers\AdminController.php(54): view('admin/productos...', Array)
+#5 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(832): App\Controllers\AdminController->productosActualizar()
+#6 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#7 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\LuqueIgnacio\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-11 18:10:54 --> Undefined array key "id"
+#0 D:\xampp\htdocs\LuqueIgnacio\app\Controllers\AdminController.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\xampp\\htdocs...', 50)
+#1 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(832): App\Controllers\AdminController->productosActualizar()
+#2 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#3 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\LuqueIgnacio\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-11 18:11:15 --> Undefined array key "id"
+#0 D:\xampp\htdocs\LuqueIgnacio\app\Controllers\AdminController.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\xampp\\htdocs...', 50)
+#1 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(832): App\Controllers\AdminController->productosActualizar()
+#2 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#3 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\LuqueIgnacio\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-11 18:11:18 --> Undefined array key "id"
+#0 D:\xampp\htdocs\LuqueIgnacio\app\Controllers\AdminController.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\xampp\\htdocs...', 50)
+#1 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(832): App\Controllers\AdminController->productosActualizar()
+#2 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#3 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\LuqueIgnacio\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-11 18:12:02 --> Undefined array key "productos"
+#0 D:\xampp\htdocs\LuqueIgnacio\app\Controllers\AdminController.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\xampp\\htdocs...', 53)
+#1 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(832): App\Controllers\AdminController->productosActualizar()
+#2 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#3 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\LuqueIgnacio\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-11 18:12:17 --> There is no data to update.
+#0 D:\xampp\htdocs\LuqueIgnacio\system\BaseModel.php(1593): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 D:\xampp\htdocs\LuqueIgnacio\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(Array, 'update')
+#2 D:\xampp\htdocs\LuqueIgnacio\system\Model.php(651): CodeIgniter\BaseModel->update(Array, Object(App\Entities\Producto))
+#3 D:\xampp\htdocs\LuqueIgnacio\system\BaseModel.php(656): CodeIgniter\Model->update('5', Object(App\Entities\Producto))
+#4 D:\xampp\htdocs\LuqueIgnacio\app\Controllers\AdminController.php(53): CodeIgniter\BaseModel->save(Object(App\Entities\Producto))
+#5 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(832): App\Controllers\AdminController->productosActualizar()
+#6 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#7 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\LuqueIgnacio\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-11 18:12:27 --> There is no data to update.
+#0 D:\xampp\htdocs\LuqueIgnacio\system\BaseModel.php(1593): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 D:\xampp\htdocs\LuqueIgnacio\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(Array, 'update')
+#2 D:\xampp\htdocs\LuqueIgnacio\system\Model.php(651): CodeIgniter\BaseModel->update(Array, Object(App\Entities\Producto))
+#3 D:\xampp\htdocs\LuqueIgnacio\system\BaseModel.php(656): CodeIgniter\Model->update('5', Object(App\Entities\Producto))
+#4 D:\xampp\htdocs\LuqueIgnacio\app\Controllers\AdminController.php(53): CodeIgniter\BaseModel->save(Object(App\Entities\Producto))
+#5 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(832): App\Controllers\AdminController->productosActualizar()
+#6 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#7 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\LuqueIgnacio\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-11 18:13:35 --> There is no data to update.
+#0 D:\xampp\htdocs\LuqueIgnacio\system\BaseModel.php(1593): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 D:\xampp\htdocs\LuqueIgnacio\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(Array, 'update')
+#2 D:\xampp\htdocs\LuqueIgnacio\system\Model.php(651): CodeIgniter\BaseModel->update(Array, Object(App\Entities\Producto))
+#3 D:\xampp\htdocs\LuqueIgnacio\system\BaseModel.php(656): CodeIgniter\Model->update('5', Object(App\Entities\Producto))
+#4 D:\xampp\htdocs\LuqueIgnacio\app\Controllers\AdminController.php(53): CodeIgniter\BaseModel->save(Object(App\Entities\Producto))
+#5 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(832): App\Controllers\AdminController->productosActualizar()
+#6 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#7 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\LuqueIgnacio\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-11 18:15:30 --> There is no data to update.
+#0 D:\xampp\htdocs\LuqueIgnacio\system\BaseModel.php(1593): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 D:\xampp\htdocs\LuqueIgnacio\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(Array, 'update')
+#2 D:\xampp\htdocs\LuqueIgnacio\system\Model.php(651): CodeIgniter\BaseModel->update(Array, Object(App\Entities\Producto))
+#3 D:\xampp\htdocs\LuqueIgnacio\system\BaseModel.php(656): CodeIgniter\Model->update('5', Object(App\Entities\Producto))
+#4 D:\xampp\htdocs\LuqueIgnacio\app\Controllers\AdminController.php(53): CodeIgniter\BaseModel->save(Object(App\Entities\Producto))
+#5 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(832): App\Controllers\AdminController->productosActualizar()
+#6 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#7 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\LuqueIgnacio\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-11 18:15:37 --> There is no data to update.
+#0 D:\xampp\htdocs\LuqueIgnacio\system\BaseModel.php(1593): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 D:\xampp\htdocs\LuqueIgnacio\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(Array, 'update')
+#2 D:\xampp\htdocs\LuqueIgnacio\system\Model.php(651): CodeIgniter\BaseModel->update(Array, Object(App\Entities\Producto))
+#3 D:\xampp\htdocs\LuqueIgnacio\system\BaseModel.php(656): CodeIgniter\Model->update('5', Object(App\Entities\Producto))
+#4 D:\xampp\htdocs\LuqueIgnacio\app\Controllers\AdminController.php(53): CodeIgniter\BaseModel->save(Object(App\Entities\Producto))
+#5 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(832): App\Controllers\AdminController->productosActualizar()
+#6 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#7 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\LuqueIgnacio\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-04-11 18:17:05 --> Duplicate entry '1231' for key 'productos.Producto_Cod_UNIQUE'
+ERROR - 2022-04-11 18:17:26 --> Duplicate entry '1231' for key 'productos.Producto_Cod_UNIQUE'
+ERROR - 2022-04-11 18:17:51 --> Duplicate entry '1231' for key 'productos.Producto_Cod_UNIQUE'
+CRITICAL - 2022-04-11 18:18:18 --> There is no data to update.
+#0 D:\xampp\htdocs\LuqueIgnacio\system\BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 D:\xampp\htdocs\LuqueIgnacio\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 D:\xampp\htdocs\LuqueIgnacio\system\Model.php(651): CodeIgniter\BaseModel->update(Array, NULL)
+#3 D:\xampp\htdocs\LuqueIgnacio\app\Controllers\AdminController.php(53): CodeIgniter\Model->update(Array)
+#4 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(832): App\Controllers\AdminController->productosActualizar()
+#5 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#6 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\LuqueIgnacio\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-11 18:18:29 --> There is no data to update.
+#0 D:\xampp\htdocs\LuqueIgnacio\system\BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 D:\xampp\htdocs\LuqueIgnacio\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 D:\xampp\htdocs\LuqueIgnacio\system\Model.php(651): CodeIgniter\BaseModel->update(Array, NULL)
+#3 D:\xampp\htdocs\LuqueIgnacio\app\Controllers\AdminController.php(53): CodeIgniter\Model->update(Array)
+#4 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(832): App\Controllers\AdminController->productosActualizar()
+#5 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#6 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\LuqueIgnacio\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-11 18:19:09 --> There is no data to update.
+#0 D:\xampp\htdocs\LuqueIgnacio\system\BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 D:\xampp\htdocs\LuqueIgnacio\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 D:\xampp\htdocs\LuqueIgnacio\system\Model.php(651): CodeIgniter\BaseModel->update(Array, NULL)
+#3 D:\xampp\htdocs\LuqueIgnacio\app\Controllers\AdminController.php(53): CodeIgniter\Model->update(Array)
+#4 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(832): App\Controllers\AdminController->productosActualizar()
+#5 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#6 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\LuqueIgnacio\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-11 18:24:40 --> Attempt to read property "Producto_Nombre" on array
+#0 D:\xampp\htdocs\LuqueIgnacio\app\Views\admin\productos\actualizar.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'D:\\xampp\\htdocs...', 13)
+#1 D:\xampp\htdocs\LuqueIgnacio\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\LuqueIgnacio\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\LuqueIgnacio\system\Common.php(1089): CodeIgniter\View\View->render('admin/productos...', Array, true)
+#4 D:\xampp\htdocs\LuqueIgnacio\app\Controllers\AdminController.php(59): view('admin/productos...', Array)
+#5 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(832): App\Controllers\AdminController->productosActualizar()
+#6 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#7 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\LuqueIgnacio\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-11 18:25:12 --> Attempt to read property "Producto_Nombre" on array
+#0 D:\xampp\htdocs\LuqueIgnacio\app\Views\admin\productos\actualizar.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'D:\\xampp\\htdocs...', 11)
+#1 D:\xampp\htdocs\LuqueIgnacio\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\LuqueIgnacio\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\LuqueIgnacio\system\Common.php(1089): CodeIgniter\View\View->render('admin/productos...', Array, true)
+#4 D:\xampp\htdocs\LuqueIgnacio\app\Controllers\AdminController.php(59): view('admin/productos...', Array)
+#5 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(832): App\Controllers\AdminController->productosActualizar()
+#6 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#7 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\LuqueIgnacio\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-11 18:25:16 --> Undefined variable $errores
+#0 D:\xampp\htdocs\LuqueIgnacio\app\Views\admin\productos\actualizar.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\xampp\\htdocs...', 11)
+#1 D:\xampp\htdocs\LuqueIgnacio\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\LuqueIgnacio\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\LuqueIgnacio\system\Common.php(1089): CodeIgniter\View\View->render('admin/productos...', Array, true)
+#4 D:\xampp\htdocs\LuqueIgnacio\app\Controllers\AdminController.php(59): view('admin/productos...', Array)
+#5 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(832): App\Controllers\AdminController->productosActualizar()
+#6 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#7 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\LuqueIgnacio\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-11 18:25:29 --> Undefined variable $errores
+#0 D:\xampp\htdocs\LuqueIgnacio\app\Views\admin\productos\actualizar.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\xampp\\htdocs...', 11)
+#1 D:\xampp\htdocs\LuqueIgnacio\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\LuqueIgnacio\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\LuqueIgnacio\system\Common.php(1089): CodeIgniter\View\View->render('admin/productos...', Array, true)
+#4 D:\xampp\htdocs\LuqueIgnacio\app\Controllers\AdminController.php(59): view('admin/productos...', Array)
+#5 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(832): App\Controllers\AdminController->productosActualizar()
+#6 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#7 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\LuqueIgnacio\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-11 18:26:43 --> Attempt to read property "Producto_Nombre" on array
+#0 D:\xampp\htdocs\LuqueIgnacio\app\Views\admin\productos\actualizar.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'D:\\xampp\\htdocs...', 11)
+#1 D:\xampp\htdocs\LuqueIgnacio\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\LuqueIgnacio\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\LuqueIgnacio\system\Common.php(1089): CodeIgniter\View\View->render('admin/productos...', Array, true)
+#4 D:\xampp\htdocs\LuqueIgnacio\app\Controllers\AdminController.php(60): view('admin/productos...', Array)
+#5 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(832): App\Controllers\AdminController->productosActualizar()
+#6 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#7 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\LuqueIgnacio\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-11 18:45:14 --> Attempt to read property "Producto_Nombre" on null
+#0 D:\xampp\htdocs\LuqueIgnacio\app\Views\admin\productos\crear.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'D:\\xampp\\htdocs...', 8)
+#1 D:\xampp\htdocs\LuqueIgnacio\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\LuqueIgnacio\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\LuqueIgnacio\system\Common.php(1089): CodeIgniter\View\View->render('admin/productos...', Array, true)
+#4 D:\xampp\htdocs\LuqueIgnacio\app\Controllers\AdminController.php(50): view('admin/productos...', Array)
+#5 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(832): App\Controllers\AdminController->productosCrear()
+#6 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#7 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\LuqueIgnacio\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-04-11 18:45:27 --> Duplicate entry '123a' for key 'productos.Producto_Cod_UNIQUE'
+ERROR - 2022-04-11 18:45:29 --> Duplicate entry '123a' for key 'productos.Producto_Cod_UNIQUE'
+ERROR - 2022-04-11 19:14:08 --> Table 'luqueignacio.categoria' doesn't exist
+CRITICAL - 2022-04-11 19:14:08 --> Call to a member function getResult() on bool
+#0 D:\xampp\htdocs\LuqueIgnacio\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 D:\xampp\htdocs\LuqueIgnacio\app\Controllers\AdminController.php(108): CodeIgniter\BaseModel->findAll()
+#2 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(832): App\Controllers\AdminController->categorias()
+#3 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#4 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\LuqueIgnacio\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-04-11 19:15:25 --> Table 'luqueignacio.categoria' doesn't exist
+CRITICAL - 2022-04-11 19:15:25 --> Call to a member function getResult() on bool
+#0 D:\xampp\htdocs\LuqueIgnacio\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 D:\xampp\htdocs\LuqueIgnacio\app\Controllers\AdminController.php(108): CodeIgniter\BaseModel->findAll()
+#2 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(832): App\Controllers\AdminController->categorias()
+#3 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#4 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\LuqueIgnacio\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-04-11 19:17:16 --> Table 'luqueignacio.categoria' doesn't exist
+CRITICAL - 2022-04-11 19:17:16 --> Call to a member function getResult() on bool
+#0 D:\xampp\htdocs\LuqueIgnacio\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 D:\xampp\htdocs\LuqueIgnacio\app\Controllers\AdminController.php(108): CodeIgniter\BaseModel->findAll()
+#2 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(832): App\Controllers\AdminController->categorias()
+#3 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#4 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\LuqueIgnacio\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-11 19:27:42 --> Undefined variable $datos
+#0 D:\xampp\htdocs\LuqueIgnacio\app\Controllers\AdminController.php(126): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\xampp\\htdocs...', 126)
+#1 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(832): App\Controllers\AdminController->categoriasCrear()
+#2 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#3 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\LuqueIgnacio\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-11 19:30:22 --> Undefined variable $datos
+#0 D:\xampp\htdocs\LuqueIgnacio\app\Views\admin\categorias\crear.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\xampp\\htdocs...', 10)
+#1 D:\xampp\htdocs\LuqueIgnacio\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\LuqueIgnacio\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\LuqueIgnacio\system\Common.php(1089): CodeIgniter\View\View->render('admin/categoria...', Array, true)
+#4 D:\xampp\htdocs\LuqueIgnacio\app\Controllers\AdminController.php(129): view('admin/categoria...', Array)
+#5 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(832): App\Controllers\AdminController->categoriasCrear()
+#6 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#7 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\LuqueIgnacio\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-11 19:30:54 --> Undefined variable $errores
+#0 D:\xampp\htdocs\LuqueIgnacio\app\Views\admin\categorias\crear.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\xampp\\htdocs...', 10)
+#1 D:\xampp\htdocs\LuqueIgnacio\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\LuqueIgnacio\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\LuqueIgnacio\system\Common.php(1089): CodeIgniter\View\View->render('admin/categoria...', Array, true)
+#4 D:\xampp\htdocs\LuqueIgnacio\app\Controllers\AdminController.php(129): view('admin/categoria...', Array)
+#5 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(832): App\Controllers\AdminController->categoriasCrear()
+#6 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#7 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\LuqueIgnacio\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-11 19:42:32 --> Invalid file: admin/categorias/actualizar.php
+#0 D:\xampp\htdocs\LuqueIgnacio\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/categoria...')
+#1 D:\xampp\htdocs\LuqueIgnacio\system\Common.php(1089): CodeIgniter\View\View->render('admin/categoria...', Array, true)
+#2 D:\xampp\htdocs\LuqueIgnacio\app\Controllers\AdminController.php(138): view('admin/categoria...')
+#3 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(832): App\Controllers\AdminController->categoriasActualizar()
+#4 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#5 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\LuqueIgnacio\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}

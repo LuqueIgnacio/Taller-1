@@ -1,0 +1,24 @@
+CRITICAL - 2022-05-14 23:50:54 --> CodeIgniter\Validation\Rules::is_unique(): Argument #2 ($field) must be of type string, null given, called in D:\xampp\htdocs\LuqueIgnacio\system\Validation\Validation.php on line 291
+#0 D:\xampp\htdocs\LuqueIgnacio\system\Validation\Validation.php(291): CodeIgniter\Validation\Rules->is_unique('Caramelo Frutal', NULL)
+#1 D:\xampp\htdocs\LuqueIgnacio\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('Producto_Nombre', 'Producto_Nombre', 'Caramelo Frutal', Array, Array)
+#2 D:\xampp\htdocs\LuqueIgnacio\system\BaseModel.php(1347): CodeIgniter\Validation\Validation->run(Array, NULL, NULL)
+#3 D:\xampp\htdocs\LuqueIgnacio\system\BaseModel.php(835): CodeIgniter\BaseModel->validate(Array)
+#4 D:\xampp\htdocs\LuqueIgnacio\system\Model.php(651): CodeIgniter\BaseModel->update(Array, Array)
+#5 D:\xampp\htdocs\LuqueIgnacio\app\Controllers\AdminController.php(96): CodeIgniter\Model->update('1', Array)
+#6 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(832): App\Controllers\AdminController->productosActualizar()
+#7 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#8 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\LuqueIgnacio\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-05-14 23:51:09 --> CodeIgniter\Validation\Rules::is_unique(): Argument #2 ($field) must be of type string, null given, called in D:\xampp\htdocs\LuqueIgnacio\system\Validation\Validation.php on line 291
+#0 D:\xampp\htdocs\LuqueIgnacio\system\Validation\Validation.php(291): CodeIgniter\Validation\Rules->is_unique('Caramelo Frutal', NULL)
+#1 D:\xampp\htdocs\LuqueIgnacio\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('Producto_Nombre', 'Producto_Nombre', 'Caramelo Frutal', Array, Array)
+#2 D:\xampp\htdocs\LuqueIgnacio\system\BaseModel.php(1347): CodeIgniter\Validation\Validation->run(Array, NULL, NULL)
+#3 D:\xampp\htdocs\LuqueIgnacio\system\BaseModel.php(707): CodeIgniter\BaseModel->validate(Array)
+#4 D:\xampp\htdocs\LuqueIgnacio\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#5 D:\xampp\htdocs\LuqueIgnacio\app\Controllers\AdminController.php(61): CodeIgniter\Model->insert(Array)
+#6 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(832): App\Controllers\AdminController->productosCrear()
+#7 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#8 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\LuqueIgnacio\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}

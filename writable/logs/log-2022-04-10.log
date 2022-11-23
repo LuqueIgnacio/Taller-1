@@ -1,0 +1,479 @@
+CRITICAL - 2022-04-10 11:30:09 --> Class "App\Models\Productos" not found
+#0 D:\xampp\htdocs\LuqueIgnacio\system\View\View.php(210): include()
+#1 D:\xampp\htdocs\LuqueIgnacio\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 D:\xampp\htdocs\LuqueIgnacio\system\Common.php(1089): CodeIgniter\View\View->render('contacto', Array, true)
+#3 D:\xampp\htdocs\LuqueIgnacio\app\Controllers\Home.php(21): view('contacto')
+#4 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(832): App\Controllers\Home->contacto()
+#5 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\LuqueIgnacio\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-10 11:31:51 --> Class "App\Models\Productos" not found
+#0 D:\xampp\htdocs\LuqueIgnacio\system\View\View.php(210): include()
+#1 D:\xampp\htdocs\LuqueIgnacio\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 D:\xampp\htdocs\LuqueIgnacio\system\Common.php(1089): CodeIgniter\View\View->render('contacto', Array, true)
+#3 D:\xampp\htdocs\LuqueIgnacio\app\Controllers\Home.php(21): view('contacto')
+#4 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(832): App\Controllers\Home->contacto()
+#5 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\LuqueIgnacio\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-10 11:35:39 --> Class "App\Models\Productos" not found
+#0 D:\xampp\htdocs\LuqueIgnacio\system\View\View.php(210): include()
+#1 D:\xampp\htdocs\LuqueIgnacio\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 D:\xampp\htdocs\LuqueIgnacio\system\Common.php(1089): CodeIgniter\View\View->render('contacto', Array, true)
+#3 D:\xampp\htdocs\LuqueIgnacio\app\Controllers\Home.php(21): view('contacto')
+#4 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(832): App\Controllers\Home->contacto()
+#5 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\LuqueIgnacio\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-10 11:35:40 --> Class "App\Models\Productos" not found
+#0 D:\xampp\htdocs\LuqueIgnacio\system\View\View.php(210): include()
+#1 D:\xampp\htdocs\LuqueIgnacio\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 D:\xampp\htdocs\LuqueIgnacio\system\Common.php(1089): CodeIgniter\View\View->render('contacto', Array, true)
+#3 D:\xampp\htdocs\LuqueIgnacio\app\Controllers\Home.php(21): view('contacto')
+#4 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(832): App\Controllers\Home->contacto()
+#5 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\LuqueIgnacio\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-10 11:35:51 --> Class "App\Models\Productos" not found
+#0 D:\xampp\htdocs\LuqueIgnacio\system\View\View.php(210): include()
+#1 D:\xampp\htdocs\LuqueIgnacio\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 D:\xampp\htdocs\LuqueIgnacio\system\Common.php(1089): CodeIgniter\View\View->render('contacto', Array, true)
+#3 D:\xampp\htdocs\LuqueIgnacio\app\Controllers\Home.php(21): view('contacto')
+#4 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(832): App\Controllers\Home->contacto()
+#5 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\LuqueIgnacio\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-10 11:35:51 --> Class "App\Models\Productos" not found
+#0 D:\xampp\htdocs\LuqueIgnacio\system\View\View.php(210): include()
+#1 D:\xampp\htdocs\LuqueIgnacio\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 D:\xampp\htdocs\LuqueIgnacio\system\Common.php(1089): CodeIgniter\View\View->render('contacto', Array, true)
+#3 D:\xampp\htdocs\LuqueIgnacio\app\Controllers\Home.php(21): view('contacto')
+#4 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(832): App\Controllers\Home->contacto()
+#5 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\LuqueIgnacio\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-10 11:36:30 --> Class "App\Models\Producto" not found
+#0 D:\xampp\htdocs\LuqueIgnacio\system\View\View.php(210): include()
+#1 D:\xampp\htdocs\LuqueIgnacio\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 D:\xampp\htdocs\LuqueIgnacio\system\Common.php(1089): CodeIgniter\View\View->render('contacto', Array, true)
+#3 D:\xampp\htdocs\LuqueIgnacio\app\Controllers\Home.php(21): view('contacto')
+#4 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(832): App\Controllers\Home->contacto()
+#5 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\LuqueIgnacio\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-10 11:36:31 --> Class "App\Models\Producto" not found
+#0 D:\xampp\htdocs\LuqueIgnacio\system\View\View.php(210): include()
+#1 D:\xampp\htdocs\LuqueIgnacio\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 D:\xampp\htdocs\LuqueIgnacio\system\Common.php(1089): CodeIgniter\View\View->render('contacto', Array, true)
+#3 D:\xampp\htdocs\LuqueIgnacio\app\Controllers\Home.php(21): view('contacto')
+#4 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(832): App\Controllers\Home->contacto()
+#5 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\LuqueIgnacio\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-10 11:36:33 --> Class "App\Models\Producto" not found
+#0 D:\xampp\htdocs\LuqueIgnacio\system\View\View.php(210): include()
+#1 D:\xampp\htdocs\LuqueIgnacio\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 D:\xampp\htdocs\LuqueIgnacio\system\Common.php(1089): CodeIgniter\View\View->render('contacto', Array, true)
+#3 D:\xampp\htdocs\LuqueIgnacio\app\Controllers\Home.php(21): view('contacto')
+#4 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(832): App\Controllers\Home->contacto()
+#5 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\LuqueIgnacio\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-10 11:36:51 --> Class "App\Models\Producto" not found
+#0 D:\xampp\htdocs\LuqueIgnacio\system\View\View.php(210): include()
+#1 D:\xampp\htdocs\LuqueIgnacio\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 D:\xampp\htdocs\LuqueIgnacio\system\Common.php(1089): CodeIgniter\View\View->render('contacto', Array, true)
+#3 D:\xampp\htdocs\LuqueIgnacio\app\Controllers\Home.php(21): view('contacto')
+#4 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(832): App\Controllers\Home->contacto()
+#5 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\LuqueIgnacio\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-10 11:36:51 --> Class "App\Models\Producto" not found
+#0 D:\xampp\htdocs\LuqueIgnacio\system\View\View.php(210): include()
+#1 D:\xampp\htdocs\LuqueIgnacio\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 D:\xampp\htdocs\LuqueIgnacio\system\Common.php(1089): CodeIgniter\View\View->render('contacto', Array, true)
+#3 D:\xampp\htdocs\LuqueIgnacio\app\Controllers\Home.php(21): view('contacto')
+#4 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(832): App\Controllers\Home->contacto()
+#5 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\LuqueIgnacio\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-10 11:36:52 --> Class "App\Models\Producto" not found
+#0 D:\xampp\htdocs\LuqueIgnacio\system\View\View.php(210): include()
+#1 D:\xampp\htdocs\LuqueIgnacio\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 D:\xampp\htdocs\LuqueIgnacio\system\Common.php(1089): CodeIgniter\View\View->render('contacto', Array, true)
+#3 D:\xampp\htdocs\LuqueIgnacio\app\Controllers\Home.php(21): view('contacto')
+#4 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(832): App\Controllers\Home->contacto()
+#5 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\LuqueIgnacio\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-10 11:36:53 --> Class "App\Models\Producto" not found
+#0 D:\xampp\htdocs\LuqueIgnacio\system\View\View.php(210): include()
+#1 D:\xampp\htdocs\LuqueIgnacio\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 D:\xampp\htdocs\LuqueIgnacio\system\Common.php(1089): CodeIgniter\View\View->render('contacto', Array, true)
+#3 D:\xampp\htdocs\LuqueIgnacio\app\Controllers\Home.php(21): view('contacto')
+#4 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(832): App\Controllers\Home->contacto()
+#5 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\LuqueIgnacio\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-10 11:37:24 --> Class "App\Models\Producto" not found
+#0 D:\xampp\htdocs\LuqueIgnacio\system\View\View.php(210): include()
+#1 D:\xampp\htdocs\LuqueIgnacio\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 D:\xampp\htdocs\LuqueIgnacio\system\Common.php(1089): CodeIgniter\View\View->render('contacto', Array, true)
+#3 D:\xampp\htdocs\LuqueIgnacio\app\Controllers\Home.php(21): view('contacto')
+#4 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(832): App\Controllers\Home->contacto()
+#5 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\LuqueIgnacio\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-04-10 11:38:10 --> Error connecting to the database: Access denied for user ''@'localhost' (using password: NO)
+CRITICAL - 2022-04-10 11:38:10 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+#0 D:\xampp\htdocs\LuqueIgnacio\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\xampp\htdocs\LuqueIgnacio\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\xampp\htdocs\LuqueIgnacio\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\xampp\htdocs\LuqueIgnacio\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, 1)
+#4 D:\xampp\htdocs\LuqueIgnacio\app\Models\Producto.php(37): CodeIgniter\BaseModel->find(1)
+#5 D:\xampp\htdocs\LuqueIgnacio\app\Views\contacto.php(18): App\Models\Producto->__construct()
+#6 D:\xampp\htdocs\LuqueIgnacio\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#7 D:\xampp\htdocs\LuqueIgnacio\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#8 D:\xampp\htdocs\LuqueIgnacio\system\Common.php(1089): CodeIgniter\View\View->render('contacto', Array, true)
+#9 D:\xampp\htdocs\LuqueIgnacio\app\Controllers\Home.php(21): view('contacto')
+#10 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(832): App\Controllers\Home->contacto()
+#11 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#12 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 D:\xampp\htdocs\LuqueIgnacio\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 {main}
+ERROR - 2022-04-10 11:38:25 --> Error connecting to the database: Access denied for user ''@'localhost' (using password: NO)
+CRITICAL - 2022-04-10 11:38:25 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+#0 D:\xampp\htdocs\LuqueIgnacio\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\xampp\htdocs\LuqueIgnacio\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\xampp\htdocs\LuqueIgnacio\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\xampp\htdocs\LuqueIgnacio\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, 1)
+#4 D:\xampp\htdocs\LuqueIgnacio\app\Models\Producto.php(37): CodeIgniter\BaseModel->find(1)
+#5 D:\xampp\htdocs\LuqueIgnacio\app\Views\contacto.php(18): App\Models\Producto->__construct()
+#6 D:\xampp\htdocs\LuqueIgnacio\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#7 D:\xampp\htdocs\LuqueIgnacio\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#8 D:\xampp\htdocs\LuqueIgnacio\system\Common.php(1089): CodeIgniter\View\View->render('contacto', Array, true)
+#9 D:\xampp\htdocs\LuqueIgnacio\app\Controllers\Home.php(21): view('contacto')
+#10 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(832): App\Controllers\Home->contacto()
+#11 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#12 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 D:\xampp\htdocs\LuqueIgnacio\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 {main}
+ERROR - 2022-04-10 11:41:08 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: YES)
+CRITICAL - 2022-04-10 11:41:08 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+#0 D:\xampp\htdocs\LuqueIgnacio\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\xampp\htdocs\LuqueIgnacio\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\xampp\htdocs\LuqueIgnacio\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\xampp\htdocs\LuqueIgnacio\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, 1)
+#4 D:\xampp\htdocs\LuqueIgnacio\app\Models\Producto.php(37): CodeIgniter\BaseModel->find(1)
+#5 D:\xampp\htdocs\LuqueIgnacio\app\Views\contacto.php(18): App\Models\Producto->__construct()
+#6 D:\xampp\htdocs\LuqueIgnacio\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#7 D:\xampp\htdocs\LuqueIgnacio\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#8 D:\xampp\htdocs\LuqueIgnacio\system\Common.php(1089): CodeIgniter\View\View->render('contacto', Array, true)
+#9 D:\xampp\htdocs\LuqueIgnacio\app\Controllers\Home.php(21): view('contacto')
+#10 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(832): App\Controllers\Home->contacto()
+#11 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#12 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 D:\xampp\htdocs\LuqueIgnacio\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 {main}
+ERROR - 2022-04-10 11:41:09 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: YES)
+CRITICAL - 2022-04-10 11:41:09 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+#0 D:\xampp\htdocs\LuqueIgnacio\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\xampp\htdocs\LuqueIgnacio\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\xampp\htdocs\LuqueIgnacio\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\xampp\htdocs\LuqueIgnacio\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, 1)
+#4 D:\xampp\htdocs\LuqueIgnacio\app\Models\Producto.php(37): CodeIgniter\BaseModel->find(1)
+#5 D:\xampp\htdocs\LuqueIgnacio\app\Views\contacto.php(18): App\Models\Producto->__construct()
+#6 D:\xampp\htdocs\LuqueIgnacio\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#7 D:\xampp\htdocs\LuqueIgnacio\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#8 D:\xampp\htdocs\LuqueIgnacio\system\Common.php(1089): CodeIgniter\View\View->render('contacto', Array, true)
+#9 D:\xampp\htdocs\LuqueIgnacio\app\Controllers\Home.php(21): view('contacto')
+#10 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(832): App\Controllers\Home->contacto()
+#11 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#12 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 D:\xampp\htdocs\LuqueIgnacio\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 {main}
+ERROR - 2022-04-10 11:41:19 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: YES)
+CRITICAL - 2022-04-10 11:41:19 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+#0 D:\xampp\htdocs\LuqueIgnacio\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\xampp\htdocs\LuqueIgnacio\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\xampp\htdocs\LuqueIgnacio\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\xampp\htdocs\LuqueIgnacio\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, 1)
+#4 D:\xampp\htdocs\LuqueIgnacio\app\Models\Producto.php(37): CodeIgniter\BaseModel->find(1)
+#5 D:\xampp\htdocs\LuqueIgnacio\app\Views\contacto.php(18): App\Models\Producto->__construct()
+#6 D:\xampp\htdocs\LuqueIgnacio\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#7 D:\xampp\htdocs\LuqueIgnacio\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#8 D:\xampp\htdocs\LuqueIgnacio\system\Common.php(1089): CodeIgniter\View\View->render('contacto', Array, true)
+#9 D:\xampp\htdocs\LuqueIgnacio\app\Controllers\Home.php(21): view('contacto')
+#10 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(832): App\Controllers\Home->contacto()
+#11 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#12 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 D:\xampp\htdocs\LuqueIgnacio\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 {main}
+ERROR - 2022-04-10 11:41:19 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: YES)
+CRITICAL - 2022-04-10 11:41:19 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+#0 D:\xampp\htdocs\LuqueIgnacio\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\xampp\htdocs\LuqueIgnacio\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\xampp\htdocs\LuqueIgnacio\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\xampp\htdocs\LuqueIgnacio\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, 1)
+#4 D:\xampp\htdocs\LuqueIgnacio\app\Models\Producto.php(37): CodeIgniter\BaseModel->find(1)
+#5 D:\xampp\htdocs\LuqueIgnacio\app\Views\contacto.php(18): App\Models\Producto->__construct()
+#6 D:\xampp\htdocs\LuqueIgnacio\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#7 D:\xampp\htdocs\LuqueIgnacio\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#8 D:\xampp\htdocs\LuqueIgnacio\system\Common.php(1089): CodeIgniter\View\View->render('contacto', Array, true)
+#9 D:\xampp\htdocs\LuqueIgnacio\app\Controllers\Home.php(21): view('contacto')
+#10 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(832): App\Controllers\Home->contacto()
+#11 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#12 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 D:\xampp\htdocs\LuqueIgnacio\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2022-04-10 11:41:37 --> CodeIgniter\Database\BaseResult::getFirstRow(): Argument #1 ($type) must be of type string, null given, called in D:\xampp\htdocs\LuqueIgnacio\system\Model.php on line 143
+#0 D:\xampp\htdocs\LuqueIgnacio\system\Model.php(143): CodeIgniter\Database\BaseResult->getFirstRow(NULL)
+#1 D:\xampp\htdocs\LuqueIgnacio\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, 1)
+#2 D:\xampp\htdocs\LuqueIgnacio\app\Models\Producto.php(37): CodeIgniter\BaseModel->find(1)
+#3 D:\xampp\htdocs\LuqueIgnacio\app\Views\contacto.php(18): App\Models\Producto->__construct()
+#4 D:\xampp\htdocs\LuqueIgnacio\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#5 D:\xampp\htdocs\LuqueIgnacio\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 D:\xampp\htdocs\LuqueIgnacio\system\Common.php(1089): CodeIgniter\View\View->render('contacto', Array, true)
+#7 D:\xampp\htdocs\LuqueIgnacio\app\Controllers\Home.php(21): view('contacto')
+#8 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(832): App\Controllers\Home->contacto()
+#9 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\LuqueIgnacio\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-04-10 11:43:51 --> CodeIgniter\Database\BaseResult::getResult(): Argument #1 ($type) must be of type string, null given, called in D:\xampp\htdocs\LuqueIgnacio\system\Model.php on line 145
+#0 D:\xampp\htdocs\LuqueIgnacio\system\Model.php(145): CodeIgniter\Database\BaseResult->getResult(NULL)
+#1 D:\xampp\htdocs\LuqueIgnacio\system\BaseModel.php(523): CodeIgniter\Model->doFind(false, NULL)
+#2 D:\xampp\htdocs\LuqueIgnacio\app\Models\Producto.php(37): CodeIgniter\BaseModel->find()
+#3 D:\xampp\htdocs\LuqueIgnacio\app\Views\contacto.php(18): App\Models\Producto->__construct()
+#4 D:\xampp\htdocs\LuqueIgnacio\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#5 D:\xampp\htdocs\LuqueIgnacio\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 D:\xampp\htdocs\LuqueIgnacio\system\Common.php(1089): CodeIgniter\View\View->render('contacto', Array, true)
+#7 D:\xampp\htdocs\LuqueIgnacio\app\Controllers\Home.php(21): view('contacto')
+#8 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(832): App\Controllers\Home->contacto()
+#9 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\LuqueIgnacio\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-04-10 11:44:10 --> CodeIgniter\Database\BaseResult::getFirstRow(): Argument #1 ($type) must be of type string, null given, called in D:\xampp\htdocs\LuqueIgnacio\system\Model.php on line 143
+#0 D:\xampp\htdocs\LuqueIgnacio\system\Model.php(143): CodeIgniter\Database\BaseResult->getFirstRow(NULL)
+#1 D:\xampp\htdocs\LuqueIgnacio\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, 1)
+#2 D:\xampp\htdocs\LuqueIgnacio\app\Models\Producto.php(37): CodeIgniter\BaseModel->find(1)
+#3 D:\xampp\htdocs\LuqueIgnacio\app\Views\contacto.php(18): App\Models\Producto->__construct()
+#4 D:\xampp\htdocs\LuqueIgnacio\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#5 D:\xampp\htdocs\LuqueIgnacio\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 D:\xampp\htdocs\LuqueIgnacio\system\Common.php(1089): CodeIgniter\View\View->render('contacto', Array, true)
+#7 D:\xampp\htdocs\LuqueIgnacio\app\Controllers\Home.php(21): view('contacto')
+#8 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(832): App\Controllers\Home->contacto()
+#9 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\LuqueIgnacio\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-04-10 11:44:41 --> CodeIgniter\Database\BaseResult::getFirstRow(): Argument #1 ($type) must be of type string, null given, called in D:\xampp\htdocs\LuqueIgnacio\system\Model.php on line 143
+#0 D:\xampp\htdocs\LuqueIgnacio\system\Model.php(143): CodeIgniter\Database\BaseResult->getFirstRow(NULL)
+#1 D:\xampp\htdocs\LuqueIgnacio\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, 1)
+#2 D:\xampp\htdocs\LuqueIgnacio\app\Models\Producto.php(37): CodeIgniter\BaseModel->find(1)
+#3 D:\xampp\htdocs\LuqueIgnacio\app\Views\contacto.php(18): App\Models\Producto->__construct()
+#4 D:\xampp\htdocs\LuqueIgnacio\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#5 D:\xampp\htdocs\LuqueIgnacio\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 D:\xampp\htdocs\LuqueIgnacio\system\Common.php(1089): CodeIgniter\View\View->render('contacto', Array, true)
+#7 D:\xampp\htdocs\LuqueIgnacio\app\Controllers\Home.php(21): view('contacto')
+#8 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(832): App\Controllers\Home->contacto()
+#9 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\LuqueIgnacio\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-04-10 11:44:42 --> CodeIgniter\Database\BaseResult::getFirstRow(): Argument #1 ($type) must be of type string, null given, called in D:\xampp\htdocs\LuqueIgnacio\system\Model.php on line 143
+#0 D:\xampp\htdocs\LuqueIgnacio\system\Model.php(143): CodeIgniter\Database\BaseResult->getFirstRow(NULL)
+#1 D:\xampp\htdocs\LuqueIgnacio\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, 1)
+#2 D:\xampp\htdocs\LuqueIgnacio\app\Models\Producto.php(37): CodeIgniter\BaseModel->find(1)
+#3 D:\xampp\htdocs\LuqueIgnacio\app\Views\contacto.php(18): App\Models\Producto->__construct()
+#4 D:\xampp\htdocs\LuqueIgnacio\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#5 D:\xampp\htdocs\LuqueIgnacio\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 D:\xampp\htdocs\LuqueIgnacio\system\Common.php(1089): CodeIgniter\View\View->render('contacto', Array, true)
+#7 D:\xampp\htdocs\LuqueIgnacio\app\Controllers\Home.php(21): view('contacto')
+#8 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(832): App\Controllers\Home->contacto()
+#9 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\LuqueIgnacio\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-04-10 11:44:43 --> CodeIgniter\Database\BaseResult::getFirstRow(): Argument #1 ($type) must be of type string, null given, called in D:\xampp\htdocs\LuqueIgnacio\system\Model.php on line 143
+#0 D:\xampp\htdocs\LuqueIgnacio\system\Model.php(143): CodeIgniter\Database\BaseResult->getFirstRow(NULL)
+#1 D:\xampp\htdocs\LuqueIgnacio\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, 1)
+#2 D:\xampp\htdocs\LuqueIgnacio\app\Models\Producto.php(37): CodeIgniter\BaseModel->find(1)
+#3 D:\xampp\htdocs\LuqueIgnacio\app\Views\contacto.php(18): App\Models\Producto->__construct()
+#4 D:\xampp\htdocs\LuqueIgnacio\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#5 D:\xampp\htdocs\LuqueIgnacio\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 D:\xampp\htdocs\LuqueIgnacio\system\Common.php(1089): CodeIgniter\View\View->render('contacto', Array, true)
+#7 D:\xampp\htdocs\LuqueIgnacio\app\Controllers\Home.php(21): view('contacto')
+#8 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(832): App\Controllers\Home->contacto()
+#9 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\LuqueIgnacio\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-04-10 11:44:44 --> CodeIgniter\Database\BaseResult::getFirstRow(): Argument #1 ($type) must be of type string, null given, called in D:\xampp\htdocs\LuqueIgnacio\system\Model.php on line 143
+#0 D:\xampp\htdocs\LuqueIgnacio\system\Model.php(143): CodeIgniter\Database\BaseResult->getFirstRow(NULL)
+#1 D:\xampp\htdocs\LuqueIgnacio\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, 1)
+#2 D:\xampp\htdocs\LuqueIgnacio\app\Models\Producto.php(37): CodeIgniter\BaseModel->find(1)
+#3 D:\xampp\htdocs\LuqueIgnacio\app\Views\contacto.php(18): App\Models\Producto->__construct()
+#4 D:\xampp\htdocs\LuqueIgnacio\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#5 D:\xampp\htdocs\LuqueIgnacio\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 D:\xampp\htdocs\LuqueIgnacio\system\Common.php(1089): CodeIgniter\View\View->render('contacto', Array, true)
+#7 D:\xampp\htdocs\LuqueIgnacio\app\Controllers\Home.php(21): view('contacto')
+#8 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(832): App\Controllers\Home->contacto()
+#9 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\LuqueIgnacio\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-04-10 11:45:28 --> CodeIgniter\Database\BaseResult::getFirstRow(): Argument #1 ($type) must be of type string, null given, called in D:\xampp\htdocs\LuqueIgnacio\system\Model.php on line 143
+#0 D:\xampp\htdocs\LuqueIgnacio\system\Model.php(143): CodeIgniter\Database\BaseResult->getFirstRow(NULL)
+#1 D:\xampp\htdocs\LuqueIgnacio\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, 1)
+#2 D:\xampp\htdocs\LuqueIgnacio\app\Models\Producto.php(37): CodeIgniter\BaseModel->find(1)
+#3 D:\xampp\htdocs\LuqueIgnacio\app\Views\contacto.php(18): App\Models\Producto->__construct()
+#4 D:\xampp\htdocs\LuqueIgnacio\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#5 D:\xampp\htdocs\LuqueIgnacio\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 D:\xampp\htdocs\LuqueIgnacio\system\Common.php(1089): CodeIgniter\View\View->render('contacto', Array, true)
+#7 D:\xampp\htdocs\LuqueIgnacio\app\Controllers\Home.php(21): view('contacto')
+#8 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(832): App\Controllers\Home->contacto()
+#9 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\LuqueIgnacio\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-04-10 11:46:18 --> CodeIgniter\Database\BaseResult::getResult(): Argument #1 ($type) must be of type string, null given, called in D:\xampp\htdocs\LuqueIgnacio\system\Model.php on line 184
+#0 D:\xampp\htdocs\LuqueIgnacio\system\Model.php(184): CodeIgniter\Database\BaseResult->getResult(NULL)
+#1 D:\xampp\htdocs\LuqueIgnacio\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#2 D:\xampp\htdocs\LuqueIgnacio\app\Models\Producto.php(37): CodeIgniter\BaseModel->findAll()
+#3 D:\xampp\htdocs\LuqueIgnacio\app\Views\contacto.php(18): App\Models\Producto->__construct()
+#4 D:\xampp\htdocs\LuqueIgnacio\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#5 D:\xampp\htdocs\LuqueIgnacio\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 D:\xampp\htdocs\LuqueIgnacio\system\Common.php(1089): CodeIgniter\View\View->render('contacto', Array, true)
+#7 D:\xampp\htdocs\LuqueIgnacio\app\Controllers\Home.php(21): view('contacto')
+#8 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(832): App\Controllers\Home->contacto()
+#9 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\xampp\htdocs\LuqueIgnacio\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-04-10 15:40:11 --> Allowed fields must be specified for model: App\Models\ProductoModel
+#0 D:\xampp\htdocs\LuqueIgnacio\system\BaseModel.php(1138): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\Prod...')
+#1 D:\xampp\htdocs\LuqueIgnacio\system\BaseModel.php(841): CodeIgniter\BaseModel->doProtectFields(Array)
+#2 D:\xampp\htdocs\LuqueIgnacio\system\Model.php(651): CodeIgniter\BaseModel->update(Array, Array)
+#3 D:\xampp\htdocs\LuqueIgnacio\system\BaseModel.php(656): CodeIgniter\Model->update(2, Object(App\Entities\Producto))
+#4 D:\xampp\htdocs\LuqueIgnacio\app\Views\contacto.php(27): CodeIgniter\BaseModel->save(Object(App\Entities\Producto))
+#5 D:\xampp\htdocs\LuqueIgnacio\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#6 D:\xampp\htdocs\LuqueIgnacio\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 D:\xampp\htdocs\LuqueIgnacio\system\Common.php(1089): CodeIgniter\View\View->render('contacto', Array, true)
+#8 D:\xampp\htdocs\LuqueIgnacio\app\Controllers\Home.php(21): view('contacto')
+#9 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(832): App\Controllers\Home->contacto()
+#10 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#11 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\xampp\htdocs\LuqueIgnacio\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-04-10 15:42:47 --> Unknown column 'updated_at' in 'field list'
+ERROR - 2022-04-10 15:43:34 --> Unknown column 'updated_at' in 'field list'
+ERROR - 2022-04-10 15:43:47 --> Unknown column 'updated_at' in 'field list'
+ERROR - 2022-04-10 15:45:41 --> Unknown column 'updated_at' in 'field list'
+ERROR - 2022-04-10 15:47:18 --> Unknown column 'updated_at' in 'field list'
+ERROR - 2022-04-10 15:47:20 --> Unknown column 'updated_at' in 'field list'
+ERROR - 2022-04-10 15:47:41 --> Unknown column 'updated_at' in 'field list'
+CRITICAL - 2022-04-10 15:49:13 --> CodeIgniter\Entity\Entity::__construct(): Argument #1 ($data) must be of type ?array, App\Entities\Producto given, called in D:\xampp\htdocs\LuqueIgnacio\app\Views\contacto.php on line 21
+#0 D:\xampp\htdocs\LuqueIgnacio\app\Views\contacto.php(21): CodeIgniter\Entity\Entity->__construct(Object(App\Entities\Producto))
+#1 D:\xampp\htdocs\LuqueIgnacio\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\LuqueIgnacio\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\LuqueIgnacio\system\Common.php(1089): CodeIgniter\View\View->render('contacto', Array, true)
+#4 D:\xampp\htdocs\LuqueIgnacio\app\Controllers\Home.php(21): view('contacto')
+#5 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(832): App\Controllers\Home->contacto()
+#6 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\LuqueIgnacio\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-04-10 15:49:52 --> Unknown column 'updated_at' in 'field list'
+ERROR - 2022-04-10 15:50:20 --> Unknown column 'updated_at' in 'field list'
+CRITICAL - 2022-04-10 15:50:49 --> Cannot use object of type App\Entities\Producto as array
+#0 D:\xampp\htdocs\LuqueIgnacio\system\View\View.php(210): include()
+#1 D:\xampp\htdocs\LuqueIgnacio\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 D:\xampp\htdocs\LuqueIgnacio\system\Common.php(1089): CodeIgniter\View\View->render('contacto', Array, true)
+#3 D:\xampp\htdocs\LuqueIgnacio\app\Controllers\Home.php(21): view('contacto')
+#4 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(832): App\Controllers\Home->contacto()
+#5 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\LuqueIgnacio\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-04-10 15:51:03 --> Unknown column 'updated_at' in 'field list'
+ERROR - 2022-04-10 15:51:15 --> Unknown column 'updated_at' in 'field list'
+ERROR - 2022-04-10 15:52:04 --> Unknown column 'updated_at' in 'field list'
+ERROR - 2022-04-10 15:52:19 --> Unknown column 'updated_at' in 'field list'
+ERROR - 2022-04-10 15:54:47 --> Unknown column 'updated_at' in 'field list'
+ERROR - 2022-04-10 15:54:48 --> Unknown column 'updated_at' in 'field list'
+ERROR - 2022-04-10 15:57:13 --> Unknown column 'updated_at' in 'field list'
+ERROR - 2022-04-10 16:03:08 --> Unknown column 'updated_at' in 'field list'
+ERROR - 2022-04-10 16:03:35 --> Unknown column 'updated_at' in 'field list'
+ERROR - 2022-04-10 17:10:25 --> Unknown column 'updated_at' in 'field list'
+ERROR - 2022-04-10 17:10:28 --> Unknown column 'updated_at' in 'field list'
+ERROR - 2022-04-10 17:10:35 --> Unknown column 'updated_at' in 'field list'
+ERROR - 2022-04-10 17:10:50 --> Unknown column 'updated_at' in 'field list'
+CRITICAL - 2022-04-10 17:11:04 --> Cannot use object of type App\Entities\Producto as array
+#0 D:\xampp\htdocs\LuqueIgnacio\system\View\View.php(210): include()
+#1 D:\xampp\htdocs\LuqueIgnacio\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 D:\xampp\htdocs\LuqueIgnacio\system\Common.php(1089): CodeIgniter\View\View->render('contacto', Array, true)
+#3 D:\xampp\htdocs\LuqueIgnacio\app\Controllers\Home.php(21): view('contacto')
+#4 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(832): App\Controllers\Home->contacto()
+#5 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\LuqueIgnacio\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-10 17:11:10 --> Cannot use object of type App\Entities\Producto as array
+#0 D:\xampp\htdocs\LuqueIgnacio\system\View\View.php(210): include()
+#1 D:\xampp\htdocs\LuqueIgnacio\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 D:\xampp\htdocs\LuqueIgnacio\system\Common.php(1089): CodeIgniter\View\View->render('contacto', Array, true)
+#3 D:\xampp\htdocs\LuqueIgnacio\app\Controllers\Home.php(21): view('contacto')
+#4 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(832): App\Controllers\Home->contacto()
+#5 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\LuqueIgnacio\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-04-10 17:11:17 --> Unknown column 'updated_at' in 'field list'
+ERROR - 2022-04-10 17:11:58 --> Unknown column 'updated_at' in 'field list'
+ERROR - 2022-04-10 17:11:59 --> Unknown column 'updated_at' in 'field list'
+ERROR - 2022-04-10 17:12:12 --> Unknown column 'updated_at' in 'field list'
+ERROR - 2022-04-10 17:12:30 --> Unknown column 'updated_at' in 'field list'
+ERROR - 2022-04-10 17:17:36 --> Duplicate entry '113' for key 'productos.Producto_Cod_UNIQUE'
+CRITICAL - 2022-04-10 17:28:40 --> Call to undefined method App\Entities\Producto::Producto_Nombre()
+#0 D:\xampp\htdocs\LuqueIgnacio\system\View\View.php(210): include()
+#1 D:\xampp\htdocs\LuqueIgnacio\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 D:\xampp\htdocs\LuqueIgnacio\system\Common.php(1089): CodeIgniter\View\View->render('contacto', Array, true)
+#3 D:\xampp\htdocs\LuqueIgnacio\app\Controllers\Home.php(21): view('contacto')
+#4 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(832): App\Controllers\Home->contacto()
+#5 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\LuqueIgnacio\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-10 18:25:16 --> Undefined array key "REQUEST_URL"
+#0 D:\xampp\htdocs\LuqueIgnacio\app\Views\admin\index.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\xampp\\htdocs...', 11)
+#1 D:\xampp\htdocs\LuqueIgnacio\system\View\View.php(210): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\LuqueIgnacio\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\xampp\htdocs\LuqueIgnacio\system\Common.php(1089): CodeIgniter\View\View->render('admin/index', Array, true)
+#4 D:\xampp\htdocs\LuqueIgnacio\app\Controllers\AdminController.php(10): view('admin/index')
+#5 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(832): App\Controllers\AdminController->index()
+#6 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#7 D:\xampp\htdocs\LuqueIgnacio\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\LuqueIgnacio\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

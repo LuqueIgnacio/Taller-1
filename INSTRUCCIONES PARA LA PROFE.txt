@@ -1,0 +1,8 @@
+Buenas, le dejo una cuenta de admin:
+-email: ignacioluque.micha@gmail.com
+-contraseña: 123456789
+
+Al momento de registrar una cuenta tiene que confirmar el registro a través de un link que se manda por correo.
+Esa ruta es: http://localhost/LuqueIgnacio/confirmarRegistro?id=token
+Donde token es un campo de la tabla de usuarios correspondiente a ese usuario. Una vez que se entra a ese link
+la cuenta está confirmada y ya se puede iniciar sesión

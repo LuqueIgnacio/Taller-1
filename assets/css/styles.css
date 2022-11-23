@@ -1,0 +1,729 @@
+h1,h2,h3,h4,p,a,button{
+    font-family: 'Nunito', sans-serif !important;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.rojo{
+    color: #cf1819;
+}
+.dorado{
+    color: #be9b2f;
+}
+.btn-rojo{
+    background-color: #cf1819;
+    color: #fff;
+}
+.btn-verde{
+    background-color: #198754;
+    color: #fff;
+}
+.oculto{
+    visibility: hidden;
+    opacity: 0;
+}
+.mensaje{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 4rem;
+    text-align: center;
+    background-color: #cf1819;
+    color: #fff;
+    
+}
+.mensaje p{
+    margin: 0 auto;
+    font-size: 1.6rem;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 6rem;
+    border-bottom: 1px solid #dadfe1;
+    text-align: center;
+}
+@media (max-width: 1200px) {
+    header{
+        flex-direction: column;
+    }
+    .nav{
+        flex-direction: column;
+        width: auto !important;
+        margin: 0 auto !important;
+    }
+    .nav a{
+        margin: 1rem auto;
+    }
+}
+@media (max-width: 1300px) {
+   
+    .nav a{
+        font-size: 1.5rem;
+    }
+}
+header .logo{
+    display: inline;
+    color: #0d2631;
+}
+header .logo h1{
+    font-size: 2.8rem !important;
+    font-weight: 800;
+}
+.logo a{
+    text-decoration: none !important;
+    color: #000 !important;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100rem;
+    margin-right: 8rem;
+}
+.nav a{
+    font-size: 1.8rem;
+    font-weight: 600;
+    text-decoration: none;
+    color: #0d2631;
+}
+.nav button{
+    background-color: #fff;
+    border: none;
+}
+.carrito{
+    width: 4rem;
+    height: 4rem;
+}
+
+.contenedor{
+    width: 85%;
+    margin: 2rem auto;
+}
+
+.home-container{
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    margin-bottom: 3.5rem;
+}
+
+@media (max-width: 900px) {
+    .home-container{
+        flex-direction: column;
+    }
+    .carousel{
+        display: none;
+    }
+    .oferta-dia{
+        margin: 0 auto;
+        width: 100% !important;
+    }
+    .lista-ofertas{
+        align-items: center;
+    }
+}
+
+
+
+.carousel {
+    width: 94rem;
+}
+
+.card{
+    width: 100%;
+}
+
+.oferta-dia{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    width: 46rem;
+    margin-right: 2rem;
+}
+.oferta-dia-top{
+    display: block;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    font-weight: 600;
+    font-size: 2rem;
+}
+.oferta-dia-top p{
+    margin: 0;
+}
+.oferta-dia .card-body{
+    padding: 5rem 1rem;
+}
+.oferta-dia .card{
+    background-color: #f0f3f3;
+}
+.oferta-dia h5{
+    font-size: 2.5rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+.oferta-dia .btn{
+    display: block;
+    padding: 1rem;
+    margin: 0 auto;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+.ofertas-container{
+    font-family: 'Nunito', sans-serif;
+}
+
+@media (max-width: 900px){
+    .lista-ofertas{
+        display: flex !important;
+        flex-direction: column !important;
+        height: auto !important;
+    }
+    .oferta{
+        margin-bottom: 2rem;
+    }
+
+}
+
+.ofertas-container h2{
+    font-weight: 800;
+    font-size: 3rem;
+    text-align: center;
+    margin: 4rem 0;
+}
+
+.lista-ofertas{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 33.8rem);
+    justify-content: center;
+    column-gap: 2rem;
+    height: 50rem;
+}
+
+@media (max-width: 1300px){
+    .lista-ofertas{
+        grid-template-columns: repeat(3,1fr);
+        
+    }
+    .lista-ofertas .oferta:last-of-type{
+        display: none;
+    }
+}
+
+.oferta{
+    width: 34rem;
+}
+.oferta img{
+    height: 34rem;
+}
+.oferta h5{
+    font-size: 2.5rem;
+}
+.oferta .btn{
+    font-size: 2rem;
+    padding: 1rem;
+}
+.oferta-precio{
+    font-size: 1.5rem;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    padding: 4rem;
+    background-color: #000;
+    color: #fff;
+    margin-top: auto;
+}
+@media (max-width: 900px){
+    .primer-footer{
+        flex-direction: column;
+    }
+}
+
+.footer .logo{
+    display: inline;
+    font-weight: 800;
+    text-align: center;
+}
+.footer .logo h1{
+    font-size: 3rem !important;
+    font-weight: 800;
+}
+
+.primer-footer{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 6rem;
+}
+
+.need-help{
+    display: flex;
+    flex-direction: column;
+}
+.need-help h3{
+    font-size: 3rem;
+}
+
+.need-help a{
+    background-color: #cf1819;
+    color: #fff;
+    text-decoration: none;
+    padding: 1rem 1.5rem;
+    font-size: 2rem;
+}
+.footer .nav{
+    width: 100%;
+}
+.footer .nav a{
+    color: #fff;
+    transition: .3s ease;
+}
+.footer .nav a:hover{
+    color: #cf1819;
+}
+
+/*Login, registro y contacto*/
+.contenedor-auth{
+    width: 45%;
+    margin: 4rem auto;
+    font-family: 'Nunito', sans-serif !important;
+    font-size: 2rem;
+}
+
+@media (max-width: 412px){
+    .contenedor-auth{
+        width: 90%;
+    }
+}
+
+.contenedor-auth h2{
+    text-align: center;
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+.contenedor-auth .form-control{
+    padding: .5rem 1rem;
+    font-size: 2rem;
+}
+
+.contenedor-auth .btn{
+    width: 100%;
+    font-size: 2rem;
+}
+
+/*Estilos de la tienda*/
+.grid-tienda{
+    display: grid;
+    grid-template-columns: 1fr 2.5fr;
+    column-gap: 4rem;
+}
+
+
+
+.div-opciones-productos{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    border: 1px solid #dadfe1;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 800;
+    height: fit-content;
+}
+.div-opciones-productos .btn{
+    font-size: 2rem;
+    margin-top: 2rem;
+}
+
+.grid-productos{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 24.8rem);
+    gap: 1rem;
+    justify-content: center;
+    padding: 2rem 0;
+    border: 1px solid #dadfe1;
+    max-height: 150rem;
+    overflow-y: auto;
+}
+
+@media (max-width: 1000px){
+    .grid-tienda{
+        display: flex;
+        flex-direction: column;
+    }
+    .filtro-producto{
+        display: block !important;
+    }
+    .grid-productos{ 
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center;
+    }
+}
+
+@media (max-width: 1300px){
+    .grid-productos{
+       justify-content: space-around;
+    }
+}
+
+.grid-productos .oferta{
+    width: 25rem;
+}
+
+.grid-productos .oferta h5{
+    font-size: 2rem;
+    overflow: hidden;
+}
+
+.filtro-producto{
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+.filtro-producto input[type=text]{
+    font-size: 1.8rem;
+    flex: 1;
+}
+.filtro-producto label{
+    margin-right: 1rem;
+    font-size: 2rem;
+    font-weight: 600;
+}
+.filtro-producto .precio{
+    font-size: 2rem;
+    font-weight: 600;
+    margin: 0;
+    margin-left: 1rem;
+}
+
+.filtros-producto{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 1rem;
+    max-height: 27rem;
+    overflow-y: auto;
+}
+
+.filtros-producto label{
+    margin-right: 1rem;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.filtros-producto input{
+    width: 2rem;
+    margin: 0 auto;
+}
+
+/*Nosotros*/
+.contenedor-nosotros{
+    font-size: 2rem;
+}
+.contenedor-nosotros h2{
+    font-size: 3rem;
+    font-weight: 800;
+}
+
+/*Legales*/
+.contenedor-legales{
+    font-size: 2rem;
+    text-align: justify;
+}
+.legales-section{
+    margin-bottom: 2rem;
+}
+@media (max-width: 900px){
+    .legales-imgs{
+        display: flex;
+        flex-direction: column;
+    }
+    .legales-imgs img{
+        margin: 0 auto;
+        width: 200px;
+    }
+}
+.legales-titulo{
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+/*Panel de administracion*/
+.contenedor-admin{
+    display: grid;
+    grid-template-columns: 0.5fr 1.5fr;
+}
+
+
+.admin-panel-opciones{
+    display: flex;
+    height: 50rem;
+    flex-direction: column;
+    padding: 2rem;
+    text-align: center;
+    font-size: 2rem;
+    border-right: 1px solid #dadfe1;
+}
+.admin-panel-opciones h2{
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+.admin-panel-opciones .btn{
+    font-size: 2rem;
+}
+.admin-opciones{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%;
+}
+.admin-opcion{
+    text-decoration: none;
+    color: #000;
+}
+
+.panel-btns{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.panel-btns input, .form-select{
+    font-size: 1.5rem;
+}
+.panel-btns button{
+    margin-right: 2rem;
+}
+.panel-btns .form-select{
+    margin-right: 2rem;
+}
+
+.admin-panel{
+    padding: 2rem;
+    text-align: center;
+    font-size: 2rem;
+    height: auto;
+    max-height: 82.6rem;
+    overflow-y: auto;
+}
+.admin-panel .btn{
+    font-size: 1.5rem;
+}
+table{
+    width: 100%;
+    margin-top: 1rem;
+    text-align: center;
+}
+.consulta{
+    word-break: break-word;
+}
+.admin-panel h2{
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+}
+
+.descripcion-panel{
+    width: 75%;
+    margin: 0 auto;
+}
+
+.ventas-total{
+    font-size: 2.2rem;
+    margin-top: 2rem;
+}
+
+.form-crear{
+    width: 50%;
+    margin: 0 auto;
+}
+.form-crear input{
+    font-size: 1.5rem;
+    text-align: center;
+}
+.form-crear input[type=file]{
+    text-align: left;
+}
+.form-crear select{
+    width: 100%;
+}
+.form-crear .btn{
+    font-size: 2rem;
+}
+
+@media (max-width: 900px){
+    .contenedor-admin{
+        display: flex;
+        flex-direction: column;
+    }
+    .panel-btns form, .panel-btns{
+        flex-direction: column;
+    }
+    .panel-btns form > *{
+        margin-bottom: 1rem;
+    }
+    .panel-btns button{
+        margin-right: 0;
+    }
+    .panel-btns a{
+        margin-top: 2rem;
+    }
+    table{
+        border-spacing: 2rem;
+        border-collapse: unset;
+    }
+}
+
+@media (max-width: 1300px){
+    .contenedor-admin{
+        display: block;
+    }
+    .admin-panel-opciones{
+        height: auto;
+    }
+    .admin-opciones{
+        flex-direction: row;
+    }
+}
+
+.alerta{
+    background-color: #be0a0a;;
+    color: #fff;
+    padding: .5rem 0;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.exito{
+    background-color: #198754;
+}
+
+/*Carrito de compras*/
+.contenedor-carrito{
+    width: 35rem;
+    margin-left: auto;
+    margin-right: .5rem;
+}
+.carrito-div{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    background-color: #fff;
+    z-index: 99;
+    text-align: center;
+    width: 35rem;
+    height: auto;
+    max-height: 70.5rem;
+    overflow-y: auto;
+    font-size: 2rem;
+    border-radius: 5px;
+    -webkit-box-shadow: 1px 2px 3px 3px rgba(173,177,179,0.63); 
+    box-shadow: 1px 2px 3px 3px rgba(173,177,179,0.63);
+    transition: opacity .5s ease-in-out;
+}
+.carrito-div p{
+    margin: 0;
+}
+
+.carrito-div .finalizar-compra{
+    display: block;
+    width: 100%;
+    border-bottom: 1px solid #c2c7c9;
+    font-size: 2.5rem;
+}
+.carrito-detalles{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 1rem;
+}
+.producto-carrito{
+    margin: 1rem 0;
+    border-top: 1px solid #c2c7c9;
+    padding-top: 1rem;
+}
+
+.producto-carrito button{
+    border: none;
+    background-color: #fff;
+}
+.producto-carrito-datos{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.producto-carrito-img{
+    width: 10rem;
+    height: 10rem;
+}
+.producto-carrito-img img{
+    width: 100%;
+    height: 100%;
+}
+.producto-carrito-precio{
+    font-weight: 700;
+}
+
+.producto-carrito-opciones{
+    margin-bottom: 1.5rem;
+}
+
+.producto-carrito-basura{
+    width: 2rem;
+}
+.producto-carrito-add{
+    position: relative;
+    z-index: 1;
+    cursor: pointer;
+    width: 4rem;
+}
+.producto-carrito-cantidad{
+    display: inline;
+}
+
+/*Finalizar Compra*/
+.compra-total{
+    font-size: 2.5rem;
+    margin-top: 2rem;
+}
+
+.form .btn{
+    margin-bottom: 1rem;
+}
+
+/*Ver Compras*/
+/*
+ *Version con Grid
+.contenedor-compras{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 30rem);
+    column-gap: 2rem;
+    row-gap: 2rem;
+    justify-content: center;
+}*/
+/*Version con flexbox*/
+.contenedor-compras{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.contenedor-compras .card{
+    margin-right: 2rem;
+    margin-top: 2rem;
+}
+
+/*Sweet Alerts*/
+.swal-button--danger{
+    background-color: #cf1819;
+}
+
+
